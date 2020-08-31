@@ -1743,11 +1743,11 @@ if (false) {}
 
 
 
-const _b295d672 = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 1).then(__webpack_require__.bind(null, 48)));
+const _b295d672 = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 1).then(__webpack_require__.bind(null, 49)));
 
-const _04b959d9 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/_blog */ 2).then(__webpack_require__.bind(null, 49)));
+const _04b959d9 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/_blog */ 2).then(__webpack_require__.bind(null, 50)));
 
-const _732620e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 3).then(__webpack_require__.bind(null, 50))); // TODO: remove in Nuxt 3
+const _732620e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 3).then(__webpack_require__.bind(null, 51))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};

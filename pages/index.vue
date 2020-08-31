@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import ogImage from '@/static/test.png';
 export default {
   transition: 'bounce',
   
@@ -22,7 +23,37 @@ export default {
     blogPosts() {
       return this.$store.state.blogPosts;
     },
-  }
+  },
+
+  data() {
+      return {
+        title: 'Hello World!'
+      }
+    },
+    head() {
+      return {
+        title: this.title,
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'My custom description'
+          },
+          {name: 'twitter:card', content: 'summary_large_image'},
+          {name: 'twitter:title', content: 'Vue Social Cards Example'},
+          {name: 'twitter:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'},
+          // image must be an absolute path
+          {name: 'twitter:image', content: '/test.png'},
+          // Facebook OpenGraph
+          {property: 'og:title', content: 'Vue Social Cards Example'},
+          {property: 'og:site_name', content: 'Vue Example'},
+          {property: 'og:type', content: 'website'},
+          {property: 'og:image', content:  '/test.png'},
+          {property: 'og:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'}
+        ]
+      }
+    }
 
 }
 </script>
