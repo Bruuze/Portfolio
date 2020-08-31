@@ -58,12 +58,12 @@ module.exports = exports;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=b63ada4e&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=0d282cd0&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<h1>Blog Posts</h1> "),_vm._ssrNode("<div class=\"blogs\">","</div>",_vm._l((_vm.blogPosts),function(blog){return _vm._ssrNode("<ul class=\"blog\">","</ul>",[_vm._ssrNode("<li class=\"blog__title\">","</li>",[_c('nuxt-link',{attrs:{"to":("/blog/" + (blog.slug))}},[_c('h2',[_vm._v(_vm._s(blog.title))])])],1)])}),0)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=b63ada4e&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=0d282cd0&
 
 // EXTERNAL MODULE: ./static/test.png
 var test = __webpack_require__(45);
@@ -110,6 +110,7 @@ var test = __webpack_require__(45);
         name: 'description',
         content: 'My custom description'
       }, {
+        hid: 'og:title',
         name: 'og:title',
         content: "title"
       }, {
@@ -128,20 +129,20 @@ var test = __webpack_require__(45);
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg'
+        content: '/test.png'
       }, // Facebook OpenGraph
       {
         property: 'og:title',
-        content: 'Vue Social Cards Example'
+        content: 'FB Aidan Murphy'
       }, {
         property: 'og:site_name',
-        content: 'Vue Example'
+        content: 'Aidan Murphy Portfolio'
       }, {
         property: 'og:type',
         content: 'website'
       }, {
         property: 'og:image',
-        content: 'http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg'
+        content: '/test.png'
       }, {
         property: 'og:description',
         content: 'Vue sample site showing off Twitter and Facebook Cards.'
