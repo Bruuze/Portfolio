@@ -8,6 +8,8 @@
 </template>
 
 <script>
+import Vue from 'vue';
+Vue.use(require('vue-moment'));
 import moment from 'moment';
 export default {
     data: () => ({
