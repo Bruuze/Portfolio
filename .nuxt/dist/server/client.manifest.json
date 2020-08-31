@@ -8,19 +8,19 @@
     "img/test.670ca36.png",
     "pages/about.339ba0b.js",
     "pages/blog/_blog.f5c26ca.js",
-    "pages/index.e50a27f.js",
-    "runtime.529111f.js",
+    "pages/index.ee20431.js",
+    "runtime.6c82426.js",
     "vendors/commons.a430fe7.js"
   ],
   "initial": [
-    "runtime.529111f.js",
+    "runtime.6c82426.js",
     "vendors/commons.a430fe7.js",
     "app.7d2248b.js"
   ],
   "async": [
     "pages/about.339ba0b.js",
     "pages/blog/_blog.f5c26ca.js",
-    "pages/index.e50a27f.js"
+    "pages/index.ee20431.js"
   ],
   "modules": {
     "12367964": [
@@ -1390,7 +1390,7 @@
       7,
       4
     ],
-    "1eab7a92": [
+    "7aa6530c": [
       7,
       4
     ],
@@ -1398,7 +1398,7 @@
       7,
       4
     ],
-    "0d58b02c": [
+    "c555f85c": [
       7,
       4
     ],
@@ -1418,10 +1418,10 @@
       "pages/blog/_blog.f5c26ca.js"
     ],
     "2a130dde": [
-      "pages/index.e50a27f.js"
+      "pages/index.ee20431.js"
     ],
     "6fca0322": [
-      "runtime.529111f.js"
+      "runtime.6c82426.js"
     ],
     "07a97964": [
       "vendors/commons.a430fe7.js"

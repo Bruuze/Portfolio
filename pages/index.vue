@@ -40,11 +40,12 @@ export default {
             name: 'description',
             content: 'My custom description'
           },
-          {name: 'twitter:card', content: 'summary_large_image'},
-          {name: 'twitter:title', content: 'Vue Social Cards Example'},
-          {name: 'twitter:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'},
+          {name: 'og:title', content: title},
+          {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
+          {hid: 'twitter:title', name: 'twitter:title', content: 'Aidan Murphy Title'},
+          {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy Desc.'},
           // image must be an absolute path
-          {name: 'twitter:image', content: 'http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg'},
+          {hid: 'twitter:image', name: 'twitter:image', content: 'http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg'},
           // Facebook OpenGraph
           {property: 'og:title', content: 'Vue Social Cards Example'},
           {property: 'og:site_name', content: 'Vue Example'},

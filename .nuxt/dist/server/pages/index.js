@@ -58,12 +58,12 @@ module.exports = exports;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=5bb05f89&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=7717aaed&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<h1>Blog Posts</h1> "),_vm._ssrNode("<div class=\"blogs\">","</div>",_vm._l((_vm.blogPosts),function(blog){return _vm._ssrNode("<ul class=\"blog\">","</ul>",[_vm._ssrNode("<li class=\"blog__title\">","</li>",[_c('nuxt-link',{attrs:{"to":("/blog/" + (blog.slug))}},[_c('h2',[_vm._v(_vm._s(blog.title))])])],1)])}),0)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=5bb05f89&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=7717aaed&
 
 // EXTERNAL MODULE: ./static/test.png
 var test = __webpack_require__(45);
@@ -110,16 +110,23 @@ var test = __webpack_require__(45);
         name: 'description',
         content: 'My custom description'
       }, {
+        name: 'og:title',
+        content: title
+      }, {
+        hid: 'twitter:card',
         name: 'twitter:card',
         content: 'summary_large_image'
       }, {
+        hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Vue Social Cards Example'
+        content: 'Aidan Murphy Title'
       }, {
+        hid: 'twitter:description',
         name: 'twitter:description',
-        content: 'Vue sample site showing off Twitter and Facebook Cards.'
+        content: 'Aidan Murphy Desc.'
       }, // image must be an absolute path
       {
+        hid: 'twitter:image',
         name: 'twitter:image',
         content: 'http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg'
       }, // Facebook OpenGraph
