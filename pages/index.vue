@@ -44,12 +44,12 @@ export default {
           {name: 'twitter:title', content: 'Vue Social Cards Example'},
           {name: 'twitter:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'},
           // image must be an absolute path
-          {name: 'twitter:image', content: 'https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg'},
+          {name: 'twitter:image', content: 'http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg'},
           // Facebook OpenGraph
           {property: 'og:title', content: 'Vue Social Cards Example'},
           {property: 'og:site_name', content: 'Vue Example'},
           {property: 'og:type', content: 'website'},
-          {property: 'og:image', content:  '/https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg'},
+          {property: 'og:image', content:  'http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg'},
           {property: 'og:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'}
         ]
       }
