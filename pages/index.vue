@@ -1,25 +1,14 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        Home
-      </h1>
-      <div class="links">
-        <nuxt-link
-          to="/"
-          class="button--green"
-        >
-          Home
-        </nuxt-link>
-        <nuxt-link
-          to="/About"
-          class="button--green"
-        >
-          About
-        </nuxt-link>
-      </div>
-        <img src="~/assets/test.png" />
+  <div>
+    <h1>Blog Posts</h1>
+    <div class="blogs">
+      <ul class="blog" v-for="blog in blogPosts" :key="blog.slug">
+        <li class="blog__title">
+          <nuxt-link :to="`/blog/${blog.slug}`">
+            <h2>{{ blog.title }}</h2>
+          </nuxt-link>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -27,11 +16,12 @@
 <script>
 export default {
   transition: 'bounce',
-  components: {},
-  async asyncData({$content, params}){
-    const docs = await $content("test").fetch();
-    console.log("Docs", docs);
-    return {docs};
+  
+  computed: {
+    // Fetching all posts data
+    blogPosts() {
+      return this.$store.state.blogPosts;
+    },
   }
 
 }
