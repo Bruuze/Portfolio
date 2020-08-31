@@ -1,6 +1,6 @@
 <template lang="html">
-  <div class="loading-page" v-if="loading">
-    <p>Loading...</p>
+  <div v-if="loading">
+    <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_PHmUt4.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
   </div>
 </template>
 
@@ -16,7 +16,14 @@
       finish() {
         this.loading = false
       }
-    }
+    },
+    head: {
+    script: [
+      {
+        src: 'https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js'
+      }
+    ]
+  }
   }
 </script>
 

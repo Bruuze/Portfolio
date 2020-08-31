@@ -11,7 +11,8 @@
   "dependencies": {
     "@nuxt/content": "^1.7.0",
     "@nuxtjs/markdownit": "^1.2.10",
-    "nuxt": "^2.14.4"
+    "nuxt": "^2.14.4",
+    "vue-moment": "^4.1.0"
   },
   "devDependencies": {}
 }
