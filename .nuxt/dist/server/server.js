@@ -2174,12 +2174,12 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
 // EXTERNAL MODULE: ./node_modules/prismjs/themes/prism.css
 var prism = __webpack_require__(20);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=template&id=8df56314&
-var defaultvue_type_template_id_8df56314_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div id=\"overlay\"><div class=\"spinner\"></div></div> <div><ul><li><a href=\"#\">Home</a> <a href=\"#\">Home</a> <a href=\"#\">Home</a></li></ul></div> "),_c('Nuxt')],2)}
-var defaultvue_type_template_id_8df56314_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=template&id=3d9da38d&
+var defaultvue_type_template_id_3d9da38d_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div id=\"overlay\"><div class=\"spinner\"></div></div> <div><ul><li><a href=\"#\">Home</a> <a href=\"#\">Home</a> <a href=\"#\">Home</a></li></ul></div> "),_c('Nuxt')],2)}
+var defaultvue_type_template_id_3d9da38d_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./layouts/default.vue?vue&type=template&id=8df56314&
+// CONCATENATED MODULE: ./layouts/default.vue?vue&type=template&id=3d9da38d&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=script&lang=js&
 //
@@ -2332,6 +2332,11 @@ var defaultvue_type_template_id_8df56314_staticRenderFns = []
 
   loading: {
     color: '#FF7CD7'
+  },
+  head: {
+    script: [{
+      src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
+    }]
   }
 });
 // CONCATENATED MODULE: ./layouts/default.vue?vue&type=script&lang=js&
@@ -2351,8 +2356,8 @@ if (style0.__inject__) style0.__inject__(context)
 
 var default_component = Object(componentNormalizer["a" /* default */])(
   layouts_defaultvue_type_script_lang_js_,
-  defaultvue_type_template_id_8df56314_render,
-  defaultvue_type_template_id_8df56314_staticRenderFns,
+  defaultvue_type_template_id_3d9da38d_render,
+  defaultvue_type_template_id_3d9da38d_staticRenderFns,
   false,
   default_injectStyles,
   null,

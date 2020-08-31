@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.2ac939c.js",
+    "app.0ebc2f3.js",
     "img/test.670ca36.png",
     "pages/about.ad0c1d8.js",
     "pages/index.24a647b.js",
@@ -14,7 +14,7 @@
   "initial": [
     "runtime.654f093.js",
     "vendors/commons.60c451d.js",
-    "app.2ac939c.js"
+    "app.0ebc2f3.js"
   ],
   "async": [
     "pages/about.ad0c1d8.js",
@@ -44,6 +44,9 @@
     ],
     "57641790": [
       8
+    ],
+    "70323971": [
+      3
     ],
     "93974770": [
       3
@@ -132,16 +135,13 @@
     "83d94ffc": [
       3
     ],
-    "4f6ef6f0": [
-      3
-    ],
     "c7495ffe": [
       3
     ],
     "2a03616e": [
       3
     ],
-    "1510b848": [
+    "35d3fac9": [
       3
     ],
     "690f7f88": [
@@ -726,7 +726,7 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.2ac939c.js"
+      "app.0ebc2f3.js"
     ],
     "2aff1868": [
       "pages/about.ad0c1d8.js"
