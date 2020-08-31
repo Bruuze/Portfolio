@@ -51,12 +51,12 @@ module.exports = exports;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=c1df2844&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=00194178&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<h1>Blog Posts</h1> "),_vm._ssrNode("<div class=\"blogs\">","</div>",_vm._l((_vm.blogPosts),function(blog){return _vm._ssrNode("<ul class=\"blog\">","</ul>",[_vm._ssrNode("<li class=\"blog__title\">","</li>",[_c('nuxt-link',{attrs:{"to":("/blog/" + (blog.slug))}},[_c('h2',[_vm._v(_vm._s(blog.title))])])],1)])}),0)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=c1df2844&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=00194178&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&
 //
@@ -74,7 +74,7 @@ var staticRenderFns = []
 //
 //
 //
-let ROOT_PATH = 'https://flamboyant-turing-0d29fe.netlify.app';
+let ROOT_PATH = 'https://aidanmurphy.netlify.app';
 /* harmony default export */ var lib_vue_loader_options_pagesvue_type_script_lang_js_ = ({
   transition: 'bounce',
   computed: {

@@ -7,19 +7,19 @@
     "app.8686e28.js",
     "pages/about.c485049.js",
     "pages/blog/_blog.94ce70c.js",
-    "pages/index.d27ef02.js",
-    "runtime.6d7596d.js",
+    "pages/index.340c3b2.js",
+    "runtime.2682ff4.js",
     "vendors/commons.a430fe7.js"
   ],
   "initial": [
-    "runtime.6d7596d.js",
+    "runtime.2682ff4.js",
     "vendors/commons.a430fe7.js",
     "app.8686e28.js"
   ],
   "async": [
     "pages/about.c485049.js",
     "pages/blog/_blog.94ce70c.js",
-    "pages/index.d27ef02.js"
+    "pages/index.340c3b2.js"
   ],
   "modules": {
     "12367964": [
@@ -1381,13 +1381,13 @@
     "2b275c26": [
       6
     ],
-    "b2de822e": [
+    "4302c1ce": [
       6
     ],
     "bbf8c496": [
       6
     ],
-    "fd8e277e": [
+    "8db2671e": [
       6
     ],
     "5a5aae88": [
@@ -1405,10 +1405,10 @@
       "pages/blog/_blog.94ce70c.js"
     ],
     "2a130dde": [
-      "pages/index.d27ef02.js"
+      "pages/index.340c3b2.js"
     ],
     "6fca0322": [
-      "runtime.6d7596d.js"
+      "runtime.2682ff4.js"
     ],
     "07a97964": [
       "vendors/commons.a430fe7.js"
