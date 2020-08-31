@@ -40,7 +40,7 @@ export default {
             name: 'description',
             content: 'My custom description'
           },
-          {name: 'og:title', content: title},
+          {name: 'og:title', content: "title"},
           {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
           {hid: 'twitter:title', name: 'twitter:title', content: 'Aidan Murphy Title'},
           {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy Desc.'},
