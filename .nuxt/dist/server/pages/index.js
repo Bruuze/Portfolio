@@ -7,7 +7,7 @@ exports.modules = {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(47);
+var content = __webpack_require__(46);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -19,13 +19,6 @@ module.exports.__inject__ = function (context) {
 /***/ }),
 
 /***/ 45:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/test.670ca36.png";
-
-/***/ }),
-
-/***/ 46:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37,7 +30,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 47:
+/***/ 46:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -51,22 +44,19 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 51:
+/***/ 50:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=0d282cd0&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=503d3159&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<h1>Blog Posts</h1> "),_vm._ssrNode("<div class=\"blogs\">","</div>",_vm._l((_vm.blogPosts),function(blog){return _vm._ssrNode("<ul class=\"blog\">","</ul>",[_vm._ssrNode("<li class=\"blog__title\">","</li>",[_c('nuxt-link',{attrs:{"to":("/blog/" + (blog.slug))}},[_c('h2',[_vm._v(_vm._s(blog.title))])])],1)])}),0)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=0d282cd0&
-
-// EXTERNAL MODULE: ./static/test.png
-var test = __webpack_require__(45);
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=503d3159&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&
 //
@@ -84,7 +74,7 @@ var test = __webpack_require__(45);
 //
 //
 //
-
+let ROOT_PATH = 'https://flamboyant-turing-0d29fe.netlify.app';
 /* harmony default export */ var lib_vue_loader_options_pagesvue_type_script_lang_js_ = ({
   transition: 'bounce',
   computed: {
@@ -97,7 +87,8 @@ var test = __webpack_require__(45);
 
   data() {
     return {
-      title: 'Hello World!'
+      title: 'Hello World!',
+      metaImage: ROOT_PATH + '/test.png'
     };
   },
 
@@ -106,10 +97,6 @@ var test = __webpack_require__(45);
       title: this.title,
       meta: [// hid is used as unique identifier. Do not use `vmid` for it as it will not work
       {
-        hid: 'description',
-        name: 'description',
-        content: 'My custom description'
-      }, {
         hid: 'og:title',
         name: 'og:title',
         content: "title"
@@ -129,7 +116,7 @@ var test = __webpack_require__(45);
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: '/test.png'
+        content: this.metaImage
       }, // Facebook OpenGraph
       {
         property: 'og:title',
@@ -162,7 +149,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(46)
+  var style0 = __webpack_require__(45)
 if (style0.__inject__) style0.__inject__(context)
 
 }

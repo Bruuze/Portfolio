@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import ogImage from '@/static/test.png';
+let ROOT_PATH = 'https://flamboyant-turing-0d29fe.netlify.app';
 export default {
   transition: 'bounce',
   
@@ -27,7 +27,8 @@ export default {
 
   data() {
       return {
-        title: 'Hello World!'
+        title: 'Hello World!',
+        metaImage: ROOT_PATH + '/test.png'
       }
     },
     head() {
@@ -35,17 +36,12 @@ export default {
         title: this.title,
         meta: [
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-          {
-            hid: 'description',
-            name: 'description',
-            content: 'My custom description'
-          },
           {hid: 'og:title',name: 'og:title', content: "title"},
           {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
           {hid: 'twitter:title', name: 'twitter:title', content: 'Aidan Murphy Title'},
           {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy Desc.'},
           // image must be an absolute path
-          {hid: 'twitter:image', name: 'twitter:image', content: '/test.png'},
+          {hid: 'twitter:image', name: 'twitter:image', content: this.metaImage},
           // Facebook OpenGraph
           {property: 'og:title', content: 'FB Aidan Murphy'},
           {property: 'og:site_name', content: 'Aidan Murphy Portfolio'},
