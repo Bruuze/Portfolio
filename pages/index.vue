@@ -40,13 +40,14 @@ export default {
           {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
           {hid: 'twitter:title', name: 'twitter:title', content: 'Aidan Murphy Title'},
           {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy Desc.'},
+          {property: "og:url", content: ROOT_PATH },
           // image must be an absolute path
           {hid: 'twitter:image', name: 'twitter:image', content: this.metaImage},
           // Facebook OpenGraph
           {property: 'og:title', content: 'FB Aidan Murphy'},
           {property: 'og:site_name', content: 'Aidan Murphy Portfolio'},
           {property: 'og:type', content: 'website'},
-          {property: 'og:image', content:  '/test.png'},
+          {property: 'og:image', content: this.metaImage},
           {property: 'og:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'}
         ]
       }
