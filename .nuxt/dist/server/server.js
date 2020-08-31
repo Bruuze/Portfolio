@@ -718,7 +718,7 @@ module.exports = require("vue-meta");
 /* 15 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"date\":\"2020-08-31T06:54:25.111Z\",\"title\":\"Testing\",\"thumbnail\":\"/img/200_d.gif\",\"body\":\"Testing 123\"}");
+module.exports = JSON.parse("{\"date\":\"2020-08-31T06:54:25.111Z\",\"title\":\"Testing\",\"thumbnail\":\"/img/200_d.gif\",\"body\":\"Testing 123\\n\\n![](/img/artboard-1.png)\\n\\n![](/img/mockup.png)\"}");
 
 /***/ }),
 /* 16 */
