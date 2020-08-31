@@ -26,6 +26,7 @@ export default {
     ]
   },
   loading: { color: '#FF7CD7',throttle: 600},
+  loading: '~/components/loading.vue',
   loadingIndicator: {
     name: 'circle',
     color: '#FF7CD7',

@@ -1,9 +1,5 @@
 <template>
   <div>
-    <div id="overlay">
-    <div class="spinner"></div>
-</div>
-
   <div>
     <ul>
       <li>

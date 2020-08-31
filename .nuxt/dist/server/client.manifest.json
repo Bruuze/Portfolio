@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.53dd132.js",
+    "app.2a18f5f.js",
     "pages/about.c569b5e.js",
     "pages/blog/_blog.662d35b.js",
     "pages/index.15eea68.js",
@@ -14,7 +14,7 @@
   "initial": [
     "runtime.12c947e.js",
     "vendors/commons.c8f7aa6.js",
-    "app.53dd132.js"
+    "app.2a18f5f.js"
   ],
   "async": [
     "pages/about.c569b5e.js",
@@ -22,6 +22,9 @@
     "pages/index.15eea68.js"
   ],
   "modules": {
+    "12367964": [
+      3
+    ],
     "16397960": [
       8
     ],
@@ -45,9 +48,6 @@
     ],
     "57641790": [
       8
-    ],
-    "70323971": [
-      3
     ],
     "93974770": [
       3
@@ -124,7 +124,7 @@
     "5f6dfaf6": [
       3
     ],
-    "788633b9": [
+    "0183508c": [
       3
     ],
     "4002515a": [
@@ -136,16 +136,22 @@
     "d927d006": [
       3
     ],
-    "83d94ffc": [
+    "4125e81c": [
+      3
+    ],
+    "5a7df435": [
+      3
+    ],
+    "695d2298": [
       3
     ],
     "c7495ffe": [
       3
     ],
-    "2a03616e": [
+    "45f84c78": [
       3
     ],
-    "35d3fac9": [
+    "de199fe8": [
       3
     ],
     "690f7f88": [
@@ -304,7 +310,7 @@
     "2140ac92": [
       3
     ],
-    "44c5bf5e": [
+    "1a6293a4": [
       3
     ],
     "71f68c1d": [
@@ -613,10 +619,10 @@
     "cac14466": [
       3
     ],
-    "466c63e4": [
+    "74840e44": [
       3
     ],
-    "3d85e44e": [
+    "5f6c35ee": [
       3
     ],
     "296046b4": [
@@ -775,7 +781,7 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.53dd132.js"
+      "app.2a18f5f.js"
     ],
     "2aff1868": [
       "pages/about.c569b5e.js"
