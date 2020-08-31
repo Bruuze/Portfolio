@@ -3,14 +3,12 @@
     "name": "about",
     "path": "/about",
     "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\about.vue",
-    "chunkName": "pages/about",
-    "_name": "_b295d672"
+    "chunkName": "pages/about"
   },
   {
     "name": "index",
     "path": "/",
     "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_732620e8"
+    "chunkName": "pages/index"
   }
 ]
