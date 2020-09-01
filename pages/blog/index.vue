@@ -3,12 +3,9 @@
     <h1>Blog Posts</h1>
     <div class="blogs">
       <ul class="blog" v-for="blog in blogPosts" :key="blog.slug">
-        <li class="blog__title">
-          <nuxt-link :to="`/blog/${blog.slug}`">
+        <nuxt-link :to="`/blog/${blog.slug}`">
             <h2>{{ blog.title }}</h2>
           </nuxt-link>
-          <h2>{{route}}</h2>
-        </li>
       </ul>
     </div>
   </div>
