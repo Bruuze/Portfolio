@@ -2155,15 +2155,14 @@ var main = __webpack_require__(23);
 // EXTERNAL MODULE: ./node_modules/prismjs/themes/prism.css
 var prism = __webpack_require__(25);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=template&id=d46899c2&
-var defaultvue_type_template_id_d46899c2_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div><ul><li><a href=\"#\">Home</a> <a href=\"#\">Home</a> <a href=\"#\">Home</a></li></ul></div> "),_c('Nuxt')],2)}
-var defaultvue_type_template_id_d46899c2_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=template&id=79f39a0b&
+var defaultvue_type_template_id_79f39a0b_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div>","</div>",[_vm._ssrNode("<ul>","</ul>",[_vm._ssrNode("<li>","</li>",[_c('nuxt-link',{attrs:{"to":"/"}},[_vm._v(" Home ")]),_vm._ssrNode(" "),_c('nuxt-link',{attrs:{"to":"/blog"}},[_vm._v(" Blog ")])],2)])]),_vm._ssrNode(" "),_c('Nuxt')],2)}
+var defaultvue_type_template_id_79f39a0b_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./layouts/default.vue?vue&type=template&id=d46899c2&
+// CONCATENATED MODULE: ./layouts/default.vue?vue&type=template&id=79f39a0b&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=script&lang=js&
-//
 //
 //
 //
@@ -2233,8 +2232,8 @@ if (style0.__inject__) style0.__inject__(context)
 
 var default_component = Object(componentNormalizer["a" /* default */])(
   layouts_defaultvue_type_script_lang_js_,
-  defaultvue_type_template_id_d46899c2_render,
-  defaultvue_type_template_id_d46899c2_staticRenderFns,
+  defaultvue_type_template_id_79f39a0b_render,
+  defaultvue_type_template_id_79f39a0b_staticRenderFns,
   false,
   default_injectStyles,
   null,

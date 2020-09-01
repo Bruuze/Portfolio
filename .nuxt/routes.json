@@ -3,18 +3,21 @@
     "name": "blog",
     "path": "/blog",
     "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\blog\\\\index.vue",
-    "chunkName": "pages/blog/index"
+    "chunkName": "pages/blog/index",
+    "_name": "_12bdecac"
   },
   {
     "name": "blog-blog",
     "path": "/blog/:blog",
     "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\blog\\\\_blog.vue",
-    "chunkName": "pages/blog/_blog"
+    "chunkName": "pages/blog/_blog",
+    "_name": "_04b959d9"
   },
   {
     "name": "index",
     "path": "/",
     "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_732620e8"
   }
 ]

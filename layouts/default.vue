@@ -3,9 +3,8 @@
   <div>
     <ul>
       <li>
-        <a href="#">Home</a>
-        <a href="#">Home</a>
-        <a href="#">Home</a>
+        <nuxt-link to="/"> Home </nuxt-link>
+        <nuxt-link to="/blog"> Blog </nuxt-link>
       </li>
     </ul>
   </div>

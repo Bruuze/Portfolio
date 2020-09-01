@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.e4bcd59.js",
+    "app.6cfa961.js",
     "pages/blog/_blog.1d4f994.js",
     "pages/blog/index.0f1d47b.js",
     "pages/index.eeaa693.js",
@@ -14,7 +14,7 @@
   "initial": [
     "runtime.6569a58.js",
     "vendors/commons.357011b.js",
-    "app.e4bcd59.js"
+    "app.6cfa961.js"
   ],
   "async": [
     "pages/blog/_blog.1d4f994.js",
@@ -154,7 +154,7 @@
     "5a7df435": [
       3
     ],
-    "6b1acb2a": [
+    "452d7ea2": [
       3
     ],
     "c7495ffe": [
@@ -163,7 +163,7 @@
     "651537d0": [
       3
     ],
-    "30bc8c82": [
+    "0acf3ffa": [
       3
     ],
     "690f7f88": [
@@ -1384,7 +1384,7 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.e4bcd59.js"
+      "app.6cfa961.js"
     ],
     "ae15ca16": [
       "pages/blog/_blog.1d4f994.js"
