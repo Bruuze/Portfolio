@@ -30,6 +30,9 @@ export default {
         src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
       },
       {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js'
+      },
+      {
         src: '/main.js'
       },
     ]

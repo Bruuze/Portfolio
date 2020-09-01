@@ -4,22 +4,22 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.6cfa961.js",
+    "app.8992fdd.js",
     "pages/blog/_blog.1d4f994.js",
     "pages/blog/index.0f1d47b.js",
-    "pages/index.eeaa693.js",
-    "runtime.6569a58.js",
+    "pages/index.ce3dbb0.js",
+    "runtime.9285132.js",
     "vendors/commons.357011b.js"
   ],
   "initial": [
-    "runtime.6569a58.js",
+    "runtime.9285132.js",
     "vendors/commons.357011b.js",
-    "app.6cfa961.js"
+    "app.8992fdd.js"
   ],
   "async": [
     "pages/blog/_blog.1d4f994.js",
     "pages/blog/index.0f1d47b.js",
-    "pages/index.eeaa693.js"
+    "pages/index.ce3dbb0.js"
   ],
   "modules": {
     "12367964": [
@@ -148,22 +148,22 @@
     "d927d006": [
       3
     ],
-    "6d9173b0": [
+    "0e23842e": [
       3
     ],
     "5a7df435": [
       3
     ],
-    "452d7ea2": [
+    "46692ef5": [
       3
     ],
     "c7495ffe": [
       3
     ],
-    "651537d0": [
+    "d667a0de": [
       3
     ],
-    "0acf3ffa": [
+    "0c0af04d": [
       3
     ],
     "690f7f88": [
@@ -322,7 +322,7 @@
     "2140ac92": [
       3
     ],
-    "ba3177d0": [
+    "32fc5f92": [
       3
     ],
     "71f68c1d": [
@@ -670,10 +670,10 @@
     "cac14466": [
       3
     ],
-    "4e42a952": [
+    "dc45951e": [
       3
     ],
-    "58ce957d": [
+    "c72dbcc8": [
       3
     ],
     "0860c6e8": [
@@ -1369,13 +1369,13 @@
     "2b275c26": [
       6
     ],
-    "afb8fe7a": [
+    "e0f4ef60": [
       6
     ],
     "bbf8c496": [
       6
     ],
-    "fa68a3ca": [
+    "6a2db5a8": [
       6
     ],
     "5a5aae88": [
@@ -1384,7 +1384,7 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.6cfa961.js"
+      "app.8992fdd.js"
     ],
     "ae15ca16": [
       "pages/blog/_blog.1d4f994.js"
@@ -1393,10 +1393,10 @@
       "pages/blog/index.0f1d47b.js"
     ],
     "2a130dde": [
-      "pages/index.eeaa693.js"
+      "pages/index.ce3dbb0.js"
     ],
     "6fca0322": [
-      "runtime.6569a58.js"
+      "runtime.9285132.js"
     ],
     "07a97964": [
       "vendors/commons.357011b.js"

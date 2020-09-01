@@ -4,12 +4,13 @@
     <div class="blogs">
       <nuxt-link :to="`/blog`">
             <h2>Blog Page</h2>
-          </nuxt-link>
+      </nuxt-link>
     </div>
   </div>
 </template>
 
 <script>
+
 let ROOT_PATH = 'https://aidanmurphy.netlify.app';
 export default {
   transition: 'bounce',

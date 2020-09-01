@@ -1,7 +1,7 @@
 <template lang="html">
   <div v-if="loading">
     <div class="loading-page">
-      <lottie-player src="https://assets4.lottiefiles.com/datafiles/HN7OcWNnoqje6iXIiZdWzKxvLIbfeCGTmvXmEm1h/data.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+      <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_cbXcz6.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
     </div>
   </div>
 </template>
@@ -49,6 +49,7 @@
     font-family: sans-serif;
     animation-name: example;
     animation-duration: 4s;
+    z-index: 9999;
   }
 
   .loading-page lottie-player{

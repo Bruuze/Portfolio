@@ -5,6 +5,7 @@
       <li>
         <nuxt-link to="/"> Home </nuxt-link>
         <nuxt-link to="/blog"> Blog </nuxt-link>
+        <div class="bodymovinanim"></div>
       </li>
     </ul>
   </div>
@@ -13,6 +14,13 @@
 </template>
 
 <style>
+.bodymovinanim {
+    width: 90%;
+    max-width: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+
 .bounce-enter-active {
   animation: bounce-in .5s;
 }
@@ -32,6 +40,25 @@
 </style>
 
 <script>
+if (process.client) {
+  let iconMenu = document.querySelector('.bodymovinanim');
+
+    let animationMenu = bodymovin.loadAnimation({
+            container: iconMenu,
+            renderer: 'svg',
+            loop: false,
+            autoplay: false,
+            path: "/burger.json"
+    });
+
+    var directionMenu = 1;
+      iconMenu.addEventListener('click', (e) => {
+      animationMenu.setDirection(directionMenu);
+      animationMenu.play();
+      directionMenu = -directionMenu;
+    });
+}
+
 export default {
   mounted() {
     this.$nextTick(() => {
