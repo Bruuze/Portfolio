@@ -39,16 +39,16 @@ export default {
         title: this.blogPost.title + this.title,
         meta: [
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-          {hid: 'og:title',name: 'og:title', content: "Aidan Murphy - Blog - Designs for Streamers"},
-          {hid: 'og:description',name: 'og:description', content: "Aidan Murphy - Blog - Web, Motion & Graphic Design all in one place, made for Streamers!"},
+          {hid: 'og:title',name: 'og:title', content: this.blogPost.title + this.title},
+          {hid: 'og:description',name: 'og:description', content: "Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!"},
           {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
-          {hid: 'twitter:title', name: 'twitter:title', content: 'Aidan Murphy - Blog - Designs for Streamers'},
-          {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy - Blog - Web, Motion & Graphic Design all in one place, made for Streamers!'},
+          {hid: 'twitter:title', name: 'twitter:title', content: this.blogPost.title + this.title},
+          {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'},
           {property: "og:url", content: this.rootPath + this.route },
           // image must be an absolute path
           {hid: 'twitter:image', name: 'twitter:image', content: this.rootPath + this.blogPost.thumbnail},
           // Facebook OpenGraph
-          {property: 'og:title', content: 'Aidan Murphy - Blog - Designs for Streamers'},
+          {property: 'og:title', content: this.blogPost.title + this.title},
           {property: 'og:site_name', content: 'Aidan Murphy - Portfolio'},
           {property: 'og:type', content: 'website'},
           {property: 'og:image', content: this.blogPost.thumbnail},
