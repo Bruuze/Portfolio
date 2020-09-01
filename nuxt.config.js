@@ -82,6 +82,7 @@ export default {
     '@nuxt/content',
     "@nuxtjs/markdownit"
   ],
+
   markdownit: {
     injected: true
   },
