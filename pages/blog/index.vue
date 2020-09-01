@@ -41,7 +41,7 @@ export default {
           {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
           {hid: 'twitter:title', name: 'twitter:title', content: 'Aidan Murphy - Blog'},
           {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy - Blog - Web, Motion & Graphic Design all in one place, made for Streamers!'},
-          {property: "og:url", content: ROOT_PATH },
+          {property: "og:url", content: 'https://aidanmurphy.netlify.app/blog' },
           // image must be an absolute path
           {hid: 'twitter:image', name: 'twitter:image', content: this.metaImage},
           // Facebook OpenGraph
