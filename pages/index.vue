@@ -33,19 +33,20 @@ export default {
         title: this.title,
         meta: [
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-          {hid: 'og:title',name: 'og:title', content: "title"},
+          {hid: 'og:title',name: 'og:title', content: "Aidan Murphy - Designs for Streamers"},
+          {hid: 'og:description',name: 'og:description', content: "Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!"},
           {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
-          {hid: 'twitter:title', name: 'twitter:title', content: 'Aidan Murphy Title'},
-          {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy Desc.'},
+          {hid: 'twitter:title', name: 'twitter:title', content: 'Aidan Murphy - Designs for Streamers'},
+          {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'},
           {property: "og:url", content: ROOT_PATH },
           // image must be an absolute path
           {hid: 'twitter:image', name: 'twitter:image', content: this.metaImage},
           // Facebook OpenGraph
-          {property: 'og:title', content: 'FB Aidan Murphy'},
-          {property: 'og:site_name', content: 'Aidan Murphy Portfolio'},
+          {property: 'og:title', content: 'Aidan Murphy - Designs for Streamers'},
+          {property: 'og:site_name', content: 'Aidan Murphy - Portfolio'},
           {property: 'og:type', content: 'website'},
           {property: 'og:image', content: '/test.png'},
-          {property: 'og:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'}
+          {property: 'og:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'}
         ]
       }
     }
