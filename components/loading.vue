@@ -43,7 +43,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #181525;
+    background: #090915;
     text-align: center;
     font-size: 30px;
     font-family: sans-serif;

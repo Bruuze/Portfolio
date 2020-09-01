@@ -1,15 +1,26 @@
 <template>
   <div>
-  <div>
-    <ul>
-      <li>
-        <nuxt-link to="/"> Home </nuxt-link>
-        <nuxt-link to="/blog"> Blog </nuxt-link>
-        <div class="bodymovinanim"></div>
-      </li>
-    </ul>
-  </div>
+
+  <nav class="nav responsive-padding">
+    <div class="nav__wrapper">
+      <ul class="nav__ul sematic-only">
+        <li class="nav__li nav__li--desktop-only">
+          <nuxt-link to="/"> Home </nuxt-link>
+        </li>
+        <li class="nav__li nav__li--desktop-only">
+          <nuxt-link to="/blog"> Blog </nuxt-link>
+        </li>
+      </ul>
+      <ul class="nav__ul sematic-only">
+        <li class="nav__li nav__li--mobile-only">
+          <div class="bodymovinanim"></div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
     <Nuxt />
+
   </div>
 </template>
 
@@ -17,15 +28,21 @@
 .bodymovinanim {
     width: 90%;
     max-width: 50px;
-    margin-bottom: 30px;
+    margin-top: 18px;
     cursor: pointer;
+    backface-visibility: hidden;
+  transform: translateZ(0);
   }
 
 .bounce-enter-active {
   animation: bounce-in .5s;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 .bounce-leave-active {
   animation: bounce-out .5s;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 @keyframes bounce-in {
   0% { opacity: 0; 
