@@ -1,10 +1,14 @@
 <template>
   <div>
-    <h1>Index Page</h1>
+    <h1>Blog Posts</h1>
     <div class="blogs">
-      <nuxt-link :to="`/blog`">
-            <h2>Blog Page</h2>
+      <ul class="blog" v-for="blog in blogPosts" :key="blog.slug">
+        <li class="blog__title">
+          <nuxt-link :to="`/blog/${blog.slug}`">
+            <h2>{{ blog.title }}</h2>
           </nuxt-link>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -43,7 +47,7 @@ export default {
           {property: 'og:title', content: 'FB Aidan Murphy'},
           {property: 'og:site_name', content: 'Aidan Murphy Portfolio'},
           {property: 'og:type', content: 'website'},
-          {property: 'og:image', content: '/test.png'},
+          {property: 'og:image', content: this.metaImage},
           {property: 'og:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'}
         ]
       }

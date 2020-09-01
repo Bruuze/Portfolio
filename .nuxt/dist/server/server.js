@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"pages/about","2":"pages/blog/_blog","3":"pages/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"pages/blog/_blog","2":"pages/blog/index","3":"pages/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -1743,11 +1743,11 @@ if (false) {}
 
 
 
-const _b295d672 = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 1).then(__webpack_require__.bind(null, 48)));
+const _12bdecac = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 2).then(__webpack_require__.bind(null, 44)));
 
-const _04b959d9 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/_blog */ 2).then(__webpack_require__.bind(null, 49)));
+const _04b959d9 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/_blog */ 1).then(__webpack_require__.bind(null, 45)));
 
-const _732620e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 3).then(__webpack_require__.bind(null, 50))); // TODO: remove in Nuxt 3
+const _732620e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 3).then(__webpack_require__.bind(null, 46))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -1766,11 +1766,11 @@ const routerOptions = {
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior: router_scrollBehavior,
   routes: [{
-    path: "/about",
-    component: _b295d672,
-    name: "about"
+    path: "/blog",
+    component: _12bdecac,
+    name: "blog"
   }, {
-    path: "/blog/:blog?",
+    path: "/blog/:blog",
     component: _04b959d9,
     name: "blog-blog"
   }, {
@@ -2125,12 +2125,12 @@ var loading_component = Object(componentNormalizer["a" /* default */])(
 // EXTERNAL MODULE: ./node_modules/prismjs/themes/prism.css
 var prism = __webpack_require__(23);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=template&id=19a8591e&
-var defaultvue_type_template_id_19a8591e_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div><ul><li><a href=\"#\">Home</a> <a href=\"#\">Home</a> <a href=\"#\">Home</a></li></ul></div> "),_c('Nuxt')],2)}
-var defaultvue_type_template_id_19a8591e_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=template&id=0fdbe46c&
+var defaultvue_type_template_id_0fdbe46c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div><ul><li><a href=\"#\">Home</a> <a href=\"#\">Home</a> <a href=\"#\">Home</a></li></ul></div> "),_c('Nuxt')],2)}
+var defaultvue_type_template_id_0fdbe46c_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./layouts/default.vue?vue&type=template&id=19a8591e&
+// CONCATENATED MODULE: ./layouts/default.vue?vue&type=template&id=0fdbe46c&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=script&lang=js&
 //
@@ -2268,7 +2268,7 @@ var defaultvue_type_template_id_19a8591e_staticRenderFns = []
   mounted() {
     this.$nextTick(() => {
       this.$nuxt.$loading.start();
-      setTimeout(() => this.$nuxt.$loading.finish(), 500);
+      setTimeout(() => this.$nuxt.$loading.finish(), 2000);
     });
     var overlay = document.getElementById("overlay");
     window.addEventListener('load', function () {
@@ -2303,8 +2303,8 @@ if (style0.__inject__) style0.__inject__(context)
 
 var default_component = Object(componentNormalizer["a" /* default */])(
   layouts_defaultvue_type_script_lang_js_,
-  defaultvue_type_template_id_19a8591e_render,
-  defaultvue_type_template_id_19a8591e_staticRenderFns,
+  defaultvue_type_template_id_0fdbe46c_render,
+  defaultvue_type_template_id_0fdbe46c_staticRenderFns,
   false,
   default_injectStyles,
   null,
