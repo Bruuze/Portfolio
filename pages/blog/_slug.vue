@@ -1,7 +1,8 @@
 <template>
 <div>
     <div>
-      
+      <h2>{{ post.title }}</h2>
+      <nuxt-content :document="post" />
   </div>
 
 </div>
@@ -23,7 +24,8 @@ export default {
    async asyncData({ $content, params, error }) {
     let post;
     try {
-      const article = await $content(`blog/${params.slug}`).fetch()
+      post = await $content("blog", params.slug).fetch();
+      // OR const article = await $content(`articles/${params.slug}`).fetch()
     } catch (e) {
       error({ message: "Blog Post not found" });
     }
@@ -31,8 +33,8 @@ export default {
     return {
       post,
     };
-  },
-
+   },
+   
   data() {
       return {
         title: ' - Aidan Murphy - Designs for Streamers',
