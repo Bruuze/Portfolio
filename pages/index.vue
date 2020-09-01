@@ -11,7 +11,7 @@
 
 <script>
 
-let ROOT_PATH = 'https://aidanmurphy.netlify.app';
+let ROOT_PATH = 'https://aidan-murphy.netlify.app';
 export default {
   transition: 'bounce',
   

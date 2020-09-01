@@ -51,12 +51,12 @@ module.exports = exports;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=73dea234&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=03d92b8b&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<h1>Index Page</h1> "),_vm._ssrNode("<div class=\"blogs\">","</div>",[_c('nuxt-link',{attrs:{"to":"/blog"}},[_c('h2',[_vm._v("Blog Page")])])],1)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=73dea234&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=03d92b8b&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&
 //
@@ -70,7 +70,7 @@ var staticRenderFns = []
 //
 //
 //
-let ROOT_PATH = 'https://aidanmurphy.netlify.app';
+let ROOT_PATH = 'https://aidan-murphy.netlify.app';
 /* harmony default export */ var lib_vue_loader_options_pagesvue_type_script_lang_js_ = ({
   transition: 'bounce',
   computed: {
