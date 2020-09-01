@@ -1,6 +1,8 @@
 <template lang="html">
   <div v-if="loading">
-    <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_PHmUt4.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    <div class="loading-page">
+      <lottie-player src="https://assets4.lottiefiles.com/datafiles/HN7OcWNnoqje6iXIiZdWzKxvLIbfeCGTmvXmEm1h/data.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+    </div>
   </div>
 </template>
 
@@ -28,16 +30,33 @@
 </script>
 
 <style scoped>
+
+  div{
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
   .loading-page {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.8);
+    background: #181525;
     text-align: center;
-    padding-top: 200px;
     font-size: 30px;
     font-family: sans-serif;
+    animation-name: example;
+    animation-duration: 4s;
   }
+
+  .loading-page lottie-player{
+    padding: 15%;
+  }
+
+  @keyframes example {
+  75% {opacity: 1;}
+  100% {opacity: 0;}
+}
 </style>
