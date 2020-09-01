@@ -5,13 +5,13 @@
       <nuxt-link :to="`/blog`">
             <h2>Blog Page</h2>
       </nuxt-link>
+      <h2>{{route}}</h2>
     </div>
   </div>
 </template>
 
 <script>
 
-let ROOT_PATH = 'https://aidan-murphy.netlify.app';
 export default {
   transition: 'bounce',
   
@@ -24,8 +24,10 @@ export default {
 
   data() {
       return {
-        title: 'Hello World!',
-        metaImage: ROOT_PATH + '/test.png'
+        title: 'Aidan Murphy - Designs for Streamers',
+        pageImg: '/test.png',
+        rootPath: 'https://aidan-murphy.netlify.app',
+        route: this.$nuxt.$route.path,
       }
     },
     head() {
@@ -38,14 +40,14 @@ export default {
           {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
           {hid: 'twitter:title', name: 'twitter:title', content: 'Aidan Murphy - Designs for Streamers'},
           {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'},
-          {property: "og:url", content: ROOT_PATH },
+          {property: "og:url", content: this.rootPath + this.route },
           // image must be an absolute path
-          {hid: 'twitter:image', name: 'twitter:image', content: this.metaImage},
+          {hid: 'twitter:image', name: 'twitter:image', content: this.rootPath + this.pageImg},
           // Facebook OpenGraph
           {property: 'og:title', content: 'Aidan Murphy - Designs for Streamers'},
           {property: 'og:site_name', content: 'Aidan Murphy - Portfolio'},
           {property: 'og:type', content: 'website'},
-          {property: 'og:image', content: '/test.png'},
+          {property: 'og:image', content: this.pageImg},
           {property: 'og:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'}
         ]
       }

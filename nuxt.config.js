@@ -38,6 +38,10 @@ export default {
     ]
   },
 
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+  },
+
   loading: '~/components/loading.vue',
   //loading: { color: '#FF7CD7',throttle: 0},
 
