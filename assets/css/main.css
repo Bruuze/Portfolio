@@ -30,6 +30,6 @@ body {
     overflow-x: hidden;
 }
 
-body #__nuxt{
+body #__layout{
     opacity: 0;
 }

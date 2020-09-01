@@ -846,7 +846,7 @@ __webpack_require__(3).default("f52d43e0", content, true)
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "*,:after,:before{box-sizing:border-box;margin:0}html{font-family:\"Source Sans Pro\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;font-size:16px;word-spacing:1px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;box-sizing:border-box}body{background-color:#181525;overflow-y:hidden;overflow-x:hidden}body #__nuxt{opacity:0}", ""]);
+exports.push([module.i, "*,:after,:before{box-sizing:border-box;margin:0}html{font-family:\"Source Sans Pro\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;font-size:16px;word-spacing:1px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;box-sizing:border-box}body{background-color:#181525;overflow-y:hidden;overflow-x:hidden}body #__layout{opacity:0}", ""]);
 // Exports
 module.exports = exports;
 
