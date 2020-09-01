@@ -31,7 +31,7 @@ export default {
   max-width: 800px;
   margin: 2rem auto;
 }
-.blog__featured-img {
+.blog__featured-img, .blog img {
   width: 100%;
   height: auto;
 }

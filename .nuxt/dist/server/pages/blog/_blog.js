@@ -66,7 +66,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".blog{max-width:800px;margin:2rem auto}.blog__featured-img{width:100%;height:auto}div,h1,img{margin-bottom:1rem}", ""]);
+exports.push([module.i, ".blog{max-width:800px;margin:2rem auto}.blog__featured-img,.blog img{width:100%;height:auto}div,h1,img{margin-bottom:1rem}", ""]);
 // Exports
 module.exports = exports;
 
@@ -80,12 +80,12 @@ module.exports = exports;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/blog/_blog.vue?vue&type=template&id=72ae1988&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/blog/_blog.vue?vue&type=template&id=566790ce&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"blog"},[_vm._ssrNode("<img"+(_vm._ssrAttr("src",_vm.blogPost.thumbnail))+" class=\"blog__featured-img\"> <h1 class=\"blog__title\">"+_vm._ssrEscape(_vm._s(_vm.blogPost.title))+"</h1> <div class=\"blog__date\">"+_vm._ssrEscape(_vm._s(_vm.$moment(_vm.blogPost.date).format("MMM Do YYYY")))+"</div> <div class=\"blog__body\">"+(_vm._s(_vm.$md.render(_vm.blogPost.body)))+"</div>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/blog/_blog.vue?vue&type=template&id=72ae1988&
+// CONCATENATED MODULE: ./pages/blog/_blog.vue?vue&type=template&id=566790ce&
 
 // EXTERNAL MODULE: external "vue"
 var external_vue_ = __webpack_require__(0);
