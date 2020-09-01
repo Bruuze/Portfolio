@@ -51,12 +51,12 @@ module.exports = exports;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/blog/index.vue?vue&type=template&id=4a45b7ba&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/blog/index.vue?vue&type=template&id=43d33b30&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<h1>Blog Posts</h1> "),_vm._ssrNode("<div class=\"blogs\">","</div>",_vm._l((_vm.blogPosts),function(blog){return _vm._ssrNode("<ul class=\"blog\">","</ul>",[_vm._ssrNode("<li class=\"blog__title\">","</li>",[_c('nuxt-link',{attrs:{"to":("/blog/" + (blog.slug))}},[_c('h2',[_vm._v(_vm._s(blog.title))])])],1)])}),0)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/blog/index.vue?vue&type=template&id=4a45b7ba&
+// CONCATENATED MODULE: ./pages/blog/index.vue?vue&type=template&id=43d33b30&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/blog/index.vue?vue&type=script&lang=js&
 //
@@ -88,7 +88,7 @@ let ROOT_PATH = 'https://aidanmurphy.netlify.app';
   data() {
     return {
       title: 'Hello World!',
-      metaImage: ROOT_PATH + '/test.png'
+      metaImage: ROOT_PATH + '/blog.png'
     };
   },
 
@@ -99,7 +99,11 @@ let ROOT_PATH = 'https://aidanmurphy.netlify.app';
       {
         hid: 'og:title',
         name: 'og:title',
-        content: "title"
+        content: "Aidan Murphy - Blog"
+      }, {
+        hid: 'og:description',
+        name: 'og:description',
+        content: "Aidan Murphy - Blog - Web, Motion & Graphic Design all in one place, made for Streamers!"
       }, {
         hid: 'twitter:card',
         name: 'twitter:card',
@@ -107,11 +111,11 @@ let ROOT_PATH = 'https://aidanmurphy.netlify.app';
       }, {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Aidan Murphy Title'
+        content: 'Aidan Murphy - Blog'
       }, {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: 'Aidan Murphy Desc.'
+        content: 'Aidan Murphy - Blog - Web, Motion & Graphic Design all in one place, made for Streamers!'
       }, {
         property: "og:url",
         content: ROOT_PATH
@@ -123,19 +127,19 @@ let ROOT_PATH = 'https://aidanmurphy.netlify.app';
       }, // Facebook OpenGraph
       {
         property: 'og:title',
-        content: 'FB Aidan Murphy'
+        content: 'Aidan Murphy - Blogs'
       }, {
         property: 'og:site_name',
-        content: 'Aidan Murphy Portfolio'
+        content: 'Aidan Murphy - Portfolio'
       }, {
         property: 'og:type',
         content: 'website'
       }, {
         property: 'og:image',
-        content: this.metaImage
+        content: '/blog.png'
       }, {
         property: 'og:description',
-        content: 'Vue sample site showing off Twitter and Facebook Cards.'
+        content: 'Aidan Murphy - Blog - Web, Motion & Graphic Design all in one place, made for Streamers!'
       }]
     };
   }
