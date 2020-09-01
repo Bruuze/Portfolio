@@ -1,13 +1,9 @@
 <template>
   <div>
     <h1>Blog Posts</h1>
-    <div class="blogs">
-      <ul class="blog" v-for="blog in blogPosts" :key="blog.slug">
-        <nuxt-link :to="`/blog/${blog.slug}`">
-            <h2>{{ blog.title }}</h2>
-          </nuxt-link>
-      </ul>
-    </div>
+    <li v-for="post of posts" :key="post.slug">
+      <NuxtLink :to="'blog/' + post.slug">{{ post.title }}</NuxtLink>
+  </li>
   </div>
 </template>
 
@@ -16,11 +12,12 @@ let ROOT_PATH = 'https://aidanmurphy.netlify.app';
 export default {
   transition: 'bounce',
   
-  computed: {
-    // Fetching all posts data
-    blogPosts() {
-      return this.$store.state.blogPosts;
-    },
+  async asyncData({ $content }) {
+    const posts = await $content("blog").fetch();
+
+    return {
+      posts,
+    };
   },
 
   data() {
