@@ -23,7 +23,23 @@ window.addEventListener('load', function(){
 })
 
 $(document).ready(function(){
-    $(".bodymovinanim").click(function(){
+    $(".bodymovinanim, .nav__menu__top a").click(function(){
         $( ".nav__menu" ).toggle();
+    });
+
+    $(".nav__menu__top a").click(function(){
+        $( ".nav__menu" ).toggle();
+        $('.bodymovinanim').trigger('click');
+        if($('.nav__menu:hidden').length == 0)
+        {
+            $( ".nav__logo a" ).toggle();
+        }
+    });
+
+    $(".nav__logo a").click(function(){
+        if($('.nav__menu:hidden').length == 0)
+        {
+            $('.bodymovinanim').trigger('click');
+        }
     });
 });

@@ -48,14 +48,6 @@
 </template>
 
 <style>
-.bodymovinanim {
-    width: 90%;
-    max-width: 50px;
-    margin-top: 20px;
-    cursor: pointer;
-    backface-visibility: hidden;
-  transform: translateZ(0);
-  }
 
 .bounce-enter-active {
   animation: bounce-in .5s;

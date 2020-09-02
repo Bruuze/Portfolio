@@ -68,19 +68,3 @@ export default {
 
 };
 </script>
-
-<style>
-.blog {
-  max-width: 800px;
-  margin: 2rem auto;
-}
-.blog__featured-img, .blog img {
-  width: 100%;
-  height: auto;
-}
-div,
-h1,
-img {
-  margin-bottom: 1rem;
-}
-</style>
