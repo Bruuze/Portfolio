@@ -93,7 +93,7 @@ export default {
       const path = require('path');
       return fs.readdirSync('./content/blog').map(file => {
         return {
-          route: `/${path.parse(file).name}`, // Return the slug
+          route: `/blog/${path.parse(file).name}`, // Return the slug
           payload: require(`./content/blog/${file}`),
         };
       })
@@ -103,7 +103,7 @@ export default {
       const path = require('path');
       return fs.readdirSync('./content/work').map(file => {
         return {
-          route: `/${path.parse(file).name}`, // Return the slug
+          route: `/work/${path.parse(file).name}`, // Return the slug
           payload: require(`./content/work/${file}`),
         };
       })

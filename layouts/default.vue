@@ -8,10 +8,10 @@
           <nuxt-link to="/"> <Logo /> </nuxt-link>
         </li>
         <li class="nav__li nav__li--desktop-only">
-          <nuxt-link to="/work"> Work </nuxt-link>
+          <nuxt-link to="/work/"> Work </nuxt-link>
         </li>
         <li class="nav__li nav__li--desktop-only">
-          <nuxt-link to="/blog"> Blog </nuxt-link>
+          <nuxt-link to="/blog/"> Blog </nuxt-link>
         </li>
       </ul>
       <ul class="nav__ul sematic-only">
@@ -28,11 +28,11 @@
         <ul class="sematic-only">
 
           <li>
-          <nuxt-link to="/work"> Work </nuxt-link>
+          <nuxt-link to="/work/"> Work </nuxt-link>
         </li>
 
         <li>
-          <nuxt-link to="/blog"> Blog </nuxt-link>
+          <nuxt-link to="/blog/"> Blog </nuxt-link>
         </li>
 
         </ul>
