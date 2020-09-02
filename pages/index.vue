@@ -1,10 +1,33 @@
 <template>
   <main class="page__home">
+
     <section class="hhero__container dark responsive-padding">
       <div class="hhero section__content">
+          <h1 class="hhero__title mb-3"> Hi, I'm Aidan :)</h1>
+          <div class="hhero__text mb-5">
+            <p>I'm a Motion, Graphic and Web designer from <b class="ire">Ire</b><b class="la">la</b><b class="nd">nd</b> who focuses on <b>Stream Design</b>. Check out my work and see why you should book with me!</p>
+          </div>
 
+          <div class="hhero__text mb-5">
+            <nuxt-link to="/contact/" class="button primary">Get in Touch!</nuxt-link>
+            <nuxt-link to="/contact/" class="button secondary">Commission Info</nuxt-link>
+          </div>
+          
       </div>
     </section>
+
+    <section class="home-section responsive-padding home-section--light light">
+        <div class="container">
+          <div class="home__row flex--row-reverse">
+            <div class="home__col home__col-2 flex flex--align-v-center">
+              <div class="embed__container"><iframe src="https://www.youtube.com/embed/5ikqcWz7j-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" class="embed"></iframe></div>
+            </div>
+            <div class="home__col home__col-2 flex flex--align-v-center">
+            </div>
+          </div>
+        </div>
+    </section>
+
   </main>
 </template>
 
@@ -20,13 +43,6 @@
 
 export default {
   transition: 'bounce',
-  
-  computed: {
-    // Fetching all posts data
-    blogPosts() {
-      return this.$store.state.blogPosts;
-    },
-  },
 
   data() {
       return {

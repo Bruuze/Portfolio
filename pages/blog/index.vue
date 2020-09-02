@@ -22,7 +22,7 @@ export default {
 
   data() {
       return {
-        title: 'Blog - Aidan Murphy - Designs for Streamers',
+        title: 'Aidan Murphy - Blog - Designs for Streamers',
         pageImg: '/blog.png',
         rootPath: 'https://aidan-murphy.netlify.app',
         route: this.$nuxt.$route.path,

@@ -17,7 +17,7 @@ window.addEventListener('load', function(){
          }, 500);
          
         setTimeout(function(){ $(".loading-page").remove(); }, 1000);
-        setTimeout(function(){ $("body").css("overflow-y", "auto");}, 500);
+        $("body").css("overflow-y", "auto");
     }, 2000);
     
 })
