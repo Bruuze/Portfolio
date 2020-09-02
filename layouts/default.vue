@@ -8,6 +8,9 @@
           <nuxt-link to="/"> Home </nuxt-link>
         </li>
         <li class="nav__li nav__li--desktop-only">
+          <nuxt-link to="/work"> Work </nuxt-link>
+        </li>
+        <li class="nav__li nav__li--desktop-only">
           <nuxt-link to="/blog"> Blog </nuxt-link>
         </li>
       </ul>

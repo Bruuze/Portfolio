@@ -7,11 +7,25 @@
     "_name": "_12bdecac"
   },
   {
+    "name": "work",
+    "path": "/work",
+    "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\work\\\\index.vue",
+    "chunkName": "pages/work/index",
+    "_name": "_34ec724a"
+  },
+  {
     "name": "blog-slug",
     "path": "/blog/:slug",
     "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\blog\\\\_slug.vue",
     "chunkName": "pages/blog/_slug",
     "_name": "_162b2f3c"
+  },
+  {
+    "name": "work-slug",
+    "path": "/work/:slug",
+    "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\work\\\\_slug.vue",
+    "chunkName": "pages/work/_slug",
+    "_name": "_3859b4da"
   },
   {
     "name": "index",

@@ -96,7 +96,17 @@ export default {
           route: `/blog/${path.parse(file).name}`, // Return the slug
           payload: require(`./content/blog/${file}`),
         };
-      });
+      })
     },
+    routes: function() {
+      const fs = require('fs');
+      const path = require('path');
+      return fs.readdirSync('./content/work').map(file => {
+        return {
+          route: `/work/${path.parse(file).name}`, // Return the slug
+          payload: require(`./content/work/${file}`),
+        };
+      })
+    }
   },
 }
