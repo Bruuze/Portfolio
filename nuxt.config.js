@@ -23,7 +23,7 @@ export default {
       { name: 'theme-color', content: '#FF7CD7'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ],
     script: [
       {

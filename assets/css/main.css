@@ -16,6 +16,10 @@
     color:#f75ec8;
 }
 
+.dark {
+    background-color: #090915;
+}
+
 html {
     font-family: 'Red Hat Text', sans-serif;
     font-size: 16px;
@@ -36,6 +40,10 @@ body {
     background-color: #090915;
     overflow-y: hidden;
     overflow-x: hidden;
+}
+
+main{
+    display: block;
 }
 
 .nav {
@@ -61,9 +69,15 @@ body {
     background-color: transparent;
 }
 
+
 a svg {
     -webkit-transition: fill .25s ease-in-out;
     transition: fill .25s ease-in-out;
+}
+
+.section, section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .responsive-padding {
@@ -225,6 +239,22 @@ a.nuxt-link-exact-active:hover {
     padding-left: 1.5rem;
 }
 
+.section>div.section__content, section>div.section__content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hhero {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+}
+
 
 
 /* --- MEDIA QUEREYS --- */
@@ -247,6 +277,10 @@ a.nuxt-link-exact-active:hover {
 
     .nav__logo {
         margin-right: 1.5rem;
+    }
+
+    .hhero__container {
+        padding: 8rem 0;
     }
 
 }

@@ -1,14 +1,20 @@
 <template>
-  <div>
-    <h1>Index Page</h1>
+  <main class="page__home">
+    <section class="hhero__container dark responsive-padding">
+      <div class="hhero section__content">
+
+      </div>
+    </section>
+  </main>
+</template>
+
+<!--<h1>Index Page</h1>
     <div class="blogs">
       <nuxt-link :to="`/blog/`">
             <h2>Blog Page</h2>
       </nuxt-link>
       <h2>{{route}}</h2>
-    </div>
-  </div>
-</template>
+    </div>-->
 
 <script>
 

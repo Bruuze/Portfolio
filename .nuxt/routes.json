@@ -3,35 +3,30 @@
     "name": "blog",
     "path": "/blog",
     "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\blog\\\\index.vue",
-    "chunkName": "pages/blog/index",
-    "_name": "_12bdecac"
+    "chunkName": "pages/blog/index"
   },
   {
     "name": "work",
     "path": "/work",
     "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\work\\\\index.vue",
-    "chunkName": "pages/work/index",
-    "_name": "_34ec724a"
+    "chunkName": "pages/work/index"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug",
     "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\blog\\\\_slug.vue",
-    "chunkName": "pages/blog/_slug",
-    "_name": "_162b2f3c"
+    "chunkName": "pages/blog/_slug"
   },
   {
     "name": "work-slug",
     "path": "/work/:slug",
     "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\work\\\\_slug.vue",
-    "chunkName": "pages/work/_slug",
-    "_name": "_3859b4da"
+    "chunkName": "pages/work/_slug"
   },
   {
     "name": "index",
     "path": "/",
     "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_732620e8"
+    "chunkName": "pages/index"
   }
 ]
