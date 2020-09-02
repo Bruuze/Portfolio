@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
     <div class="loading-page">
-      <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_dO8Ir9.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+      <lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_s8rbIj.json"  background="transparent"  speed="1"  autoplay></lottie-player>
     </div>
   </div>
 </template>
@@ -36,20 +36,15 @@
     text-align: center;
     font-size: 30px;
     font-family: sans-serif;
-    animation-name: example;
-    animation-duration: 5s;
+    /*animation-name: example;
+    animation-duration: 1s;*/
     z-index: 9999;
   }
 
+
   .loading-page lottie-player{
-    padding: 15%;
+    padding: 12%;
   }
 
-  @keyframes example {
-  80% {opacity: 1;}
-
-  90% {opacity: 0;}
   
-  100% {opacity: 0;}
-}
 </style>

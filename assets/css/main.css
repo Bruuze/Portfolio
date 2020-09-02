@@ -34,7 +34,7 @@ body {
 }
 
 body .loading-page{
-    opacity: 1 !important;
+    /*opacity: 1 !important;*/
 }
 
 .nav {
@@ -139,6 +139,17 @@ a.nuxt-link-exact-active {
 a.nuxt-link-exact-active:hover {
     color: #f75ec8;
 }
+
+.loadAnim {
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    0% {opacity: 1;}
+  
+    100% {opacity: 0;}
+  }
 
 
 
