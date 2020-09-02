@@ -37,7 +37,7 @@
     font-size: 30px;
     font-family: sans-serif;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 5s;
     z-index: 9999;
   }
 
