@@ -2,7 +2,7 @@
   <div>
     <h1>Index Page</h1>
     <div class="blogs">
-      <nuxt-link :to="`/blog`">
+      <nuxt-link :to="`/blog/`">
             <h2>Blog Page</h2>
       </nuxt-link>
       <h2>{{route}}</h2>
