@@ -8,6 +8,10 @@
   margin: 0;
 }
 
+:focus {
+    outline: none;
+}
+
 #new-color{
     color:#f75ec8;
 }
@@ -146,6 +150,18 @@ a svg {
     transition: fill .25s ease-in-out;
 }
 
+.bodymovinanim:focus, .bodymovinanim:focus {
+    outline: none;
+    box-shadow: none;
+    -webkit-user-select: none; /* Chrome/Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+
+/* Rules below not implemented in browsers yet */
+-o-user-select: none;
+user-select: none;
+  }
+
 .nav__li a:hover {
     color: #fff;
     fill: #fff;
@@ -170,6 +186,34 @@ a.nuxt-link-exact-active:hover {
 
 .nav__logo {
     margin-right: 0;
+}
+
+.nav__menu {
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    width: 100vw;
+    height: calc(100% - 4rem);
+    background-color: #090915;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    z-index: 4;
+}
+
+.nav__menu__top {
+    list-style: none;
+    padding: 1rem 0 0;
+}
+
+.nav__menu__top a {
+    height: 3rem;
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 

@@ -1,4 +1,7 @@
 window.addEventListener('load', function(){
+
+    $( ".nav__menu" ).toggle();
+
     setTimeout(function(){ 
         console.log("this works");
 
@@ -19,15 +22,8 @@ window.addEventListener('load', function(){
     
 })
 
-
-
- /*$( ".loading-page" ).animate({
-    opacity: 0,
-    transform: scale(2,2)
-  }, 1000);
-  setTimeout(function(){ $(".loading-page").css("display", "none"); }, 1000);
-  $("body").css("overflow-y", "auto");*/
-
-
-//setTimeout(function(){ $(".loading-page").css("display", "none"); }, 5000);
-//setTimeout(function(){ $("body").css("overflow-y", "auto"); }, 3500);
+$(document).ready(function(){
+    $(".bodymovinanim").click(function(){
+        $( ".nav__menu" ).toggle();
+    });
+});

@@ -16,9 +16,29 @@
       </ul>
       <ul class="nav__ul sematic-only">
         <li class="nav__li nav__li--mobile-only">
-          <div class="bodymovinanim"></div>
+          <div class="bodymovinanim" unselectable="on"></div>
         </li>
       </ul>
+    </div>
+
+    <div class="nav__menu">
+
+      <div class="nav__menu__top">
+
+        <ul class="sematic-only">
+
+          <li>
+          <nuxt-link to="/work"> Work </nuxt-link>
+        </li>
+
+        <li>
+          <nuxt-link to="/blog"> Blog </nuxt-link>
+        </li>
+
+        </ul>
+
+      </div>
+
     </div>
   </nav>
 
@@ -31,7 +51,7 @@
 .bodymovinanim {
     width: 90%;
     max-width: 50px;
-    margin-top: 4px;
+    margin-top: 20px;
     cursor: pointer;
     backface-visibility: hidden;
   transform: translateZ(0);
