@@ -1,5 +1,5 @@
 <template lang="html">
-  <div v-if="loading">
+  <div>
     <div class="loading-page">
       <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_cbXcz6.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
     </div>
@@ -8,17 +8,6 @@
 
 <script>
   export default {
-    data: () => ({
-      loading: false
-    }),
-    methods: {
-      start() {
-        this.loading = true
-      },
-      finish() {
-        this.loading = false
-      }
-    },
     head: {
     script: [
       {

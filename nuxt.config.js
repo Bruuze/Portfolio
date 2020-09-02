@@ -42,14 +42,7 @@ export default {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000'
   },
 
-  loading: '~/components/loading.vue',
-  //loading: { color: '#FF7CD7',throttle: 0},
-
-  loadingIndicator: {
-    name: 'circle',
-    color: '#FF7CD7',
-    background: 'darkgrey'
-  },
+  loading: { color: '#FF7CD7',throttle: 400},
 
 
 

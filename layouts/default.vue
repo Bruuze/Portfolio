@@ -1,6 +1,6 @@
 <template>
   <div>
-
+  <loading />
   <nav class="nav responsive-padding">
     <div class="nav__wrapper">
       <ul class="nav__ul sematic-only">
@@ -77,20 +77,6 @@ if (process.client) {
 }
 
 export default {
-  mounted() {
-    this.$nextTick(() => {
-      this.$nuxt.$loading.start()
-
-      setTimeout(() => this.$nuxt.$loading.finish(), 4000)
-    })
-    var overlay = document.getElementById("overlay");
-
-    window.addEventListener('load', function(){
-        overlay.style.opacity= '0';
-        overlay.style.zIndex= '-9999';
-    })
-  },
-
   head: {
     script: [
       {
