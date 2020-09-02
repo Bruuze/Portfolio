@@ -4,8 +4,8 @@
   <nav class="nav responsive-padding">
     <div class="nav__wrapper">
       <ul class="nav__ul sematic-only">
-        <li class="nav__li nav__li--desktop-only">
-          <nuxt-link to="/"> Home </nuxt-link>
+        <li class="nav__li nav__logo">
+          <nuxt-link to="/"> <Logo /> </nuxt-link>
         </li>
         <li class="nav__li nav__li--desktop-only">
           <nuxt-link to="/work"> Work </nuxt-link>
@@ -31,7 +31,7 @@
 .bodymovinanim {
     width: 90%;
     max-width: 50px;
-    margin-top: 18px;
+    margin-top: 4px;
     cursor: pointer;
     backface-visibility: hidden;
   transform: translateZ(0);
