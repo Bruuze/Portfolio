@@ -37,7 +37,7 @@
     font-size: 30px;
     font-family: sans-serif;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 5s;
     z-index: 9999;
   }
 
@@ -47,6 +47,9 @@
 
   @keyframes example {
   80% {opacity: 1;}
+
+  90% {opacity: 0;}
+  
   100% {opacity: 0;}
 }
 </style>
