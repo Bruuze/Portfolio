@@ -21,9 +21,9 @@
 
   <ul class="container ">
 
-    <li v-for="post of posts" :key="post.slug" class="mix green">
-      <a :title="post.title" :href="post.thumbnail" itemprop="contentUrl " data-size="1200x600 ">
-        <img :src="post.thumbnail" itemprop="thumbnail " alt="Image description " />
+    <li v-for="post of posts" :key="post.slug" class="mix" :class="post.type">
+      <a :title="post.title" :href="post.imgLarge" itemprop="contentUrl " data-size="1200x600 ">
+        <img :src="post.imgSmall" itemprop="thumbnail " alt="Image description " />
       </a>
     </li>
       
@@ -91,7 +91,7 @@ export default {
 transition: 'bounce',
 
 async asyncData({ $content }) {
-    const posts = await $content("work").fetch();
+    const posts = await $content("onscreen").fetch();
 
     return {
       posts,
