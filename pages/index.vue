@@ -23,6 +23,8 @@
               <div class="embed__container"><iframe src="https://www.youtube.com/embed/5ikqcWz7j-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" class="embed"></iframe></div>
             </div>
             <div class="home__col home__col-2 flex flex--align-v-center">
+               
+
             </div>
           </div>
         </div>
@@ -39,18 +41,34 @@
       <h2>{{route}}</h2>
     </div>-->
 
+
+
 <script>
+//import mixitup from 'mixitup';
 
 export default {
   transition: 'bounce',
 
   data() {
       return {
+        mixer: null,
         title: 'Aidan Murphy - Designs for Streamers',
         pageImg: '/test.png',
         rootPath: 'https://aidan-murphy.netlify.app',
         route: this.$nuxt.$route.path,
       }
+    },
+    mounted () {
+      this.$nextTick(() => {
+      const containerEl = document.querySelector('.container')
+      this.mixer = new this.mixitup(containerEl, {
+      // Options
+        animation: {
+        //Some options ...
+        clampHeight: false // Use this if use flexbox or css grid to get a smooth filter or sort transition
+        }
+      });
+      })
     },
     head() {
       return {

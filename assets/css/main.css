@@ -193,7 +193,7 @@ ol.sematic-only, ul.sematic-only {
 
 .nav__link-text {
     position: relative;
-    line-height: 1.5rem;
+    /*line-height: 1.5rem;*/
 }
 
 ol.sematic-only, ul.sematic-only {

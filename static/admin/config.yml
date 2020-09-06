@@ -42,4 +42,22 @@ collections:
           widget: "image",
           required: true,
         }
+        
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "onscreen"
+    label: "Onscreen"
+    format: "json"
+    folder: "content/onscreen"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Image",
+          name: "img",
+          widget: "image",
+          required: true,
+        }

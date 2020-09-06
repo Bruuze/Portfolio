@@ -29,10 +29,23 @@ export default {
       { rel:'icon', type: "image/png", sizes: "16x16", href: "/favicon-16x16.png"},
       { rel: "manifest", href: "/site.webmanifest"},
       { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#181425"},
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css'
+      }
+    ],
+    css: [
+      'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css'
     ],
     script: [
       {
         src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
+      },
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js'
+      },
+      {
+        src: 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js'
       },
       {
         src: 'https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js'
@@ -62,6 +75,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '~/plugins/mixitup.client.js', mode: 'client' }
   ],
   /*
   ** Auto import components
