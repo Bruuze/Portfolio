@@ -422,6 +422,11 @@ a.nuxt-link-exact-active:hover {
 
     .hhero__container {
         padding: 8rem 0;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        background-image: url(/websitebg.png);
+        padding: 8rem 0;
     }
 
 }

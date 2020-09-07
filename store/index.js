@@ -1,4 +1,4 @@
-export const state = () => ({
+/*export const state = () => ({
   blogPosts: []
 });
 
@@ -22,4 +22,4 @@ export const actions = {
     });
     await commit("setBlogPosts", blogPosts);
   }
-};
+};*/
