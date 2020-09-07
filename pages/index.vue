@@ -52,6 +52,7 @@ export default {
       return {
         mixer: null,
         title: 'Aidan Murphy - Designs for Streamers',
+        description: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!',
         pageImg: '/test.png',
         rootPath: 'https://aidan-murphy.netlify.app',
         route: this.$nuxt.$route.path,
@@ -75,7 +76,8 @@ export default {
         meta: [
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
           {hid: 'og:title',name: 'og:title', content: "Aidan Murphy - Designs for Streamers"},
-          {hid: 'og:description',name: 'og:description', content: "Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!"},
+          {hid: 'description', name:'description', content: this.description},
+          {hid: 'og:description',name: 'og:description', content: this.description},
           {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
           {hid: 'twitter:title', name: 'twitter:title', content: 'Aidan Murphy - Designs for Streamers'},
           {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'},
@@ -86,7 +88,7 @@ export default {
           {property: 'og:title', content: 'Aidan Murphy - Designs for Streamers'},
           {property: 'og:site_name', content: 'Aidan Murphy - Portfolio'},
           {property: 'og:type', content: 'website'},
-          {property: 'og:image', content: this.pageImg},
+          {property: 'og:image', content: this.rootPath + this.pageImg},
           {property: 'og:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'}
         ]
       }
