@@ -9,8 +9,8 @@
           </div>
 
           <div class="hhero__text mb-5">
-            <nuxt-link to="/contact/" class="button primary">Get in Touch!</nuxt-link>
-            <nuxt-link to="/contact/" class="button secondary">Commission Info</nuxt-link>
+            <nuxt-link to="/" class="button primary">Get in Touch!</nuxt-link>
+            <nuxt-link to="/" class="button secondary">Commission Info</nuxt-link>
           </div>
           
       </div>
