@@ -22,6 +22,7 @@ export default {
       { name: 'msapplication-TileColor', content: '#181425'},
       { name: 'theme-color', content: '#FF7CD7'}
     ],
+
     link: [
       //{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel:'apple-touch-icon', sizes: "180x180", href: "/apple-touch-icon.png"},
@@ -34,9 +35,11 @@ export default {
         href: 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css'
       }
     ],
+
     css: [
       'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css'
     ],
+
     script: [
       {
         src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
@@ -54,10 +57,6 @@ export default {
         src: '/main.js'
       },
     ]
-  },
-
-  env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
   },
 
   loading: { color: '#FF7CD7',throttle: 400},
@@ -106,7 +105,8 @@ export default {
   build: {
   },
 
-  generate: {/*
+  generate: {
+    crawler: false,
     routes: function() {
       const fs = require('fs');
       const path = require('path');
@@ -126,6 +126,6 @@ export default {
           payload: require(`./content/work/${file}`),
         };
       })
-    }*/
+    }
   },
 }
