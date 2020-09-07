@@ -106,7 +106,7 @@ export default {
   build: {
   },
 
-  generate: {
+  generate: {/*
     routes: function() {
       const fs = require('fs');
       const path = require('path');
@@ -126,6 +126,6 @@ export default {
           payload: require(`./content/work/${file}`),
         };
       })
-    }
+    }*/
   },
 }
