@@ -51,11 +51,12 @@ export default {
   data() {
       return {
         mixer: null,
-        title: 'Aidan Murphy - Designs for Streamers',
-        description: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!',
-        pageImg: '/test.png',
+        title: 'Aidan Murphy - Designs for Streamers & Content Creators',
+        description: 'All-in-one Online Video and Broadcast Design Specialist - Web, Motion & Graphic Design all in one place - Twitch, Youtube & Facebook - Made for Streamers & Content Creators!',
+        pageImg: 'urlStaticImg/test.png',
         rootPath: 'https://aidan-murphy.netlify.app',
         route: this.$nuxt.$route.path,
+        twitterUsername: '@AidanMurphy___'
       }
     },
     mounted () {
@@ -75,21 +76,25 @@ export default {
         title: this.title,
         meta: [
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-          {hid: 'og:title',name: 'og:title', content: "Aidan Murphy - Designs for Streamers"},
+          {hid: 'og:title',name: 'og:title', content: this.title},
           {hid: 'description', name:'description', content: this.description},
           {hid: 'og:description',name: 'og:description', content: this.description},
+
+          {hid: 'twitter:title', name: 'twitter:title', content: this.title},
+          {hid: 'twitter:description', name: 'twitter:description', content: this.description},
           {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
-          {hid: 'twitter:title', name: 'twitter:title', content: 'Aidan Murphy - Designs for Streamers'},
-          {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'},
-          {property: "og:url", content: this.rootPath + this.route },
-          // image must be an absolute path
           {hid: 'twitter:image', name: 'twitter:image', content: this.rootPath + this.pageImg},
+          {hid: 'twitter:site', name: 'twitter:site', content: this.twitterUsername},
+          {hid: 'twitter:creator', name: 'twitter:creator', content: this.twitterUsername},
+
+
           // Facebook OpenGraph
-          {property: 'og:title', content: 'Aidan Murphy - Designs for Streamers'},
+          {property: 'og:title', content: this.title},
           {property: 'og:site_name', content: 'Aidan Murphy - Portfolio'},
           {property: 'og:type', content: 'website'},
           {property: 'og:image', content: this.rootPath + this.pageImg},
-          {property: 'og:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'}
+          {property: 'og:description', content: this.description},
+          {property: "og:url", content: this.rootPath + this.route },
         ]
       }
     }
