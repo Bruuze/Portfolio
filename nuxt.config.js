@@ -64,6 +64,7 @@ export default {
   },
 
   loading: { color: '#FF7CD7',throttle: 400},
+  transition: 'bounce',
 
 
 

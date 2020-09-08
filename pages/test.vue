@@ -22,7 +22,11 @@
   <ul class="container ">
 
     <li v-for="post of posts" :key="post.slug" class="mix" :class="post.type">
-      <a :title="post.title" :href="post.imgLarge" itemprop="contentUrl " data-size="1200x600 ">
+      <a v-if="post.video == ''" :title="post.title" :href="post.imgLarge" itemprop="contentUrl " data-size="1200x600 ">
+        <img :src="post.imgSmall" itemprop="thumbnail " alt="Image description " />
+      </a>
+
+      <a v-else :title="post.title" :href="post.video" itemprop="contentUrl " data-size="1200x600 ">
         <img :src="post.imgSmall" itemprop="thumbnail " alt="Image description " />
       </a>
     </li>

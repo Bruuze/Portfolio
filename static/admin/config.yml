@@ -70,5 +70,6 @@ collections:
           label: "Large Image",
           name: "imgLarge",
           widget: "image",
-          required: true,
-        }
+          required: false,
+        } 
+      - { label: "Video URL", name: "video", widget: "string" }

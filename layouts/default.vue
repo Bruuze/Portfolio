@@ -47,31 +47,9 @@
   </div>
 </template>
 
-<style>
-
-.bounce-enter-active {
-  animation: bounce-in .5s;
-  backface-visibility: hidden;
-  transform: translateZ(0);
-}
-.bounce-leave-active {
-  animation: bounce-out .5s;
-  backface-visibility: hidden;
-  transform: translateZ(0);
-}
-@keyframes bounce-in {
-  0% { opacity: 0; 
-        transform: translateY(200px);}
-  100% { opacity: 1; 
-        transform: translateY(0px);}
-}
-@keyframes bounce-out {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-</style>
 
 <script>
+
 if (process.client) {
   let iconMenu = document.querySelector('.bodymovinanim');
 

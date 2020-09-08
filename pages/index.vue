@@ -9,7 +9,7 @@
           </div>
 
           <div class="hhero__text mb-5">
-            <nuxt-link to="/" class="button primary">Get in Touch!</nuxt-link>
+            <nuxt-link to="/" class="button primary">Portfolio</nuxt-link>
             <nuxt-link to="/" class="button secondary">Commission Info</nuxt-link>
           </div>
           
@@ -46,20 +46,8 @@
 //import mixitup from 'mixitup';
 
 export default {
-  transition: 'bounce',
-
-  data() {
-      return {
-        mixer: null,
-        title: 'Aidan Murphy - Designs for Streamers & Content Creators',
-        description: 'All-in-one Online Video and Broadcast Design Specialist - Web, Motion & Graphic Design all in one place - Twitch, Youtube & Facebook - Made for Streamers & Content Creators!',
-        pageImg: 'urlStaticImg/test.png',
-        rootPath: 'https://aidan-murphy.netlify.app',
-        route: this.$nuxt.$route.path,
-        twitterUsername: '@AidanMurphy___'
-      }
-    },
-    mounted () {
+  
+  mounted () {
       this.$nextTick(() => {
       const containerEl = document.querySelector('.container')
       this.mixer = new this.mixitup(containerEl, {
@@ -71,19 +59,35 @@ export default {
       });
       })
     },
+
+
+  /* --- Constant Data --- */
+
+  data() {
+      return {
+        mixer: null,
+        title: 'Aidan Murphy - Designs for Streamers & Content Creators',
+        description: 'All-in-one Online Video and Broadcast Design Specialist - Web, Motion & Graphic Design all in one place - Twitch, Youtube & Facebook - Made for Streamers & Content Creators!',
+        pageImg: '/urlStaticImg/test.png',
+        rootPath: 'https://aidan-murphy.netlify.app',
+        route: this.$nuxt.$route.path,
+        twitterUsername: '@AidanMurphy___'
+      }
+    },
     head() {
       return {
         title: this.title,
         meta: [
-          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+
           {hid: 'og:title',name: 'og:title', content: this.title},
           {hid: 'description', name:'description', content: this.description},
-          {hid: 'og:description',name: 'og:description', content: this.description},
+          {hid: 'keywords', name: 'keywords', content: 'stream, design, twitch, graphics, youtube, panels, package, scenes, screens, offline, offline image, banner, content, creation, influncer, facebook, streaming, quality, designer, code, website, motion, animation, animated, aidan, murphy, VBI, Nerd, or, die, Nerdordie, visuals, by, impulse, youtuber, irish, ireland, english'},
 
           {hid: 'twitter:title', name: 'twitter:title', content: this.title},
           {hid: 'twitter:description', name: 'twitter:description', content: this.description},
           {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
           {hid: 'twitter:image', name: 'twitter:image', content: this.rootPath + this.pageImg},
+          {hid: 'twitter:image:alt' , name: 'twitter:image:alt', content: 'Aidan Murphy Portflio: Designs for Streamers & Content Creators'},
           {hid: 'twitter:site', name: 'twitter:site', content: this.twitterUsername},
           {hid: 'twitter:creator', name: 'twitter:creator', content: this.twitterUsername},
 

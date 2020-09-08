@@ -10,7 +10,6 @@
 <script>
 let ROOT_PATH = 'https://aidanmurphy.netlify.app';
 export default {
-  transition: 'bounce',
   
   async asyncData({ $content }) {
     const posts = await $content("work").fetch();
