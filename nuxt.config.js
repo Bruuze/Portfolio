@@ -112,6 +112,7 @@ export default {
 
   generate: {
     crawler: false,
+    fallback: true,
     routes: function() {
       const fs = require('fs');
       const path = require('path');
@@ -127,7 +128,7 @@ export default {
       const path = require('path');
       return fs.readdirSync('./content/work').map(file => {
         return {
-          route: `/work/${path.parse(file).name}`, // Return the slug
+          route: `/portfolio/${path.parse(file).name}`, // Return the slug
           payload: require(`./content/work/${file}`),
         };
       })

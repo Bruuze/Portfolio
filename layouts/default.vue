@@ -8,7 +8,7 @@
           <nuxt-link to="/"> <Logo /> </nuxt-link>
         </li>
         <li class="nav__li nav__li--desktop-only">
-          <nuxt-link to="/work/" class="nav__link-text" title="Work"> Work </nuxt-link>
+          <nuxt-link to="/portfolio/" class="nav__link-text" title="Portfolio"> Portfolio </nuxt-link>
         </li>
         <li class="nav__li nav__li--desktop-only">
           <nuxt-link to="/blog/" class="nav__link-text" title="Blog"> Blog </nuxt-link>
