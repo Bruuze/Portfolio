@@ -112,7 +112,8 @@ export default {
 
   generate: {
     crawler: false,
-    fallback: true,
+    fallback: true, // if you want to use '404.html' instead of the default '200.html'
+    fallback: 'components/test.vue', // if your hosting needs a custom location
     routes: function() {
       const fs = require('fs');
       const path = require('path');

@@ -11,10 +11,10 @@
   "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
   },
-  "NuxtError": {
-    "description": "Auto imported from components/nuxt-error.vue"
+  "Test": {
+    "description": "Auto imported from components/test.vue"
   },
-  "LazyNuxtError": {
-    "description": "Auto imported from components/nuxt-error.vue"
+  "LazyTest": {
+    "description": "Auto imported from components/test.vue"
   }
 }
