@@ -10,5 +10,11 @@
   },
   "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
+  },
+  "NuxtError": {
+    "description": "Auto imported from components/nuxt-error.vue"
+  },
+  "LazyNuxtError": {
+    "description": "Auto imported from components/nuxt-error.vue"
   }
 }
