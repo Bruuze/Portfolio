@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _0696651c = () => interopDefault(import('..\\pages\\404.vue' /* webpackChunkName: "pages/404" */))
 const _12bdecac = () => interopDefault(import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages/blog/index" */))
 const _469c6e40 = () => interopDefault(import('..\\pages\\portfolio\\index.vue' /* webpackChunkName: "pages/portfolio/index" */))
 const _15d53670 = () => interopDefault(import('..\\pages\\test.vue' /* webpackChunkName: "pages/test" */))
@@ -27,6 +28,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/404",
+    component: _0696651c,
+    name: "404"
+  }, {
     path: "/blog",
     component: _12bdecac,
     name: "blog"
@@ -50,6 +55,10 @@ export const routerOptions = {
     path: "/",
     component: _732620e8,
     name: "index"
+  }, {
+    path: "*",
+    component: _0696651c,
+    name: "custom"
   }],
 
   fallback: false
