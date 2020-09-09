@@ -112,8 +112,8 @@ export default {
 
   generate: {
     crawler: false,
-    fallback: true, // if you want to use '404.html' instead of the default '200.html'
-    fallback: '/test.html', // if your hosting needs a custom location
+    //fallback: true, // if you want to use '404.html' instead of the default '200.html'
+    //fallback: '/test.html', // if your hosting needs a custom location
     routes: function() {
       const fs = require('fs');
       const path = require('path');
