@@ -3,7 +3,7 @@
 
     <section class="hhero__container dark responsive-padding">
       <div class="hhero section__content">
-          <h1 class="hhero__title mb-3"> Hi, I'm Aidan :(</h1>
+          <h1 class="hhero__title mb-3"> Hi, I'm Aidan :)</h1>
           <div class="hhero__text mb-5">
             <p>I'm a Motion, Graphic and Web designer from <b class="ire">Ire</b><b class="la">la</b><b class="nd">nd</b> who focuses on <b>Stream Design</b>. Check out my work and see why you should book with me!</p>
           </div>
