@@ -2,7 +2,7 @@
 <div>
     <div>
       <h2>{{ post.title }}</h2>
-      <img src="'{{post.thumbnail}}'">
+      <img src={{ imgURL }}>
       <div v-html="$md.render(post.body)"></div>
 
   </div>
@@ -70,4 +70,5 @@ export default {
     }
 
 };
+var imgURL = '"' + post.thumbnail + '"';
 </script>
