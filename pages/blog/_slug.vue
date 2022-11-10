@@ -2,9 +2,9 @@
 <div>
     <div>
       <h2>{{ post.title }}</h2>
+      <img src="{{ post.thumbnail }}" alt="">
       <div v-html="$md.render(post.body)"></div>
-      <div v-html="$md.render(post.featuredImage)"></div>
-      <div v-html="$md.render(post.img)"></div>
+
   </div>
 
 </div>
