@@ -2,7 +2,7 @@
 <div>
     <div>
       <h2>{{ post.title }}</h2>
-      <img src="{{ post.thumbnail }}" alt="">
+      <img src={{ post.thumbnail }} alt="">
       <div v-html="$md.render(post.body)"></div>
 
   </div>
