@@ -2,6 +2,7 @@
 <div>
     <div>
       <h2>{{ post.title }}</h2>
+      <img :src="post.thumbnail">
       <div v-html="$md.render(post.body)"></div>
   </div>
 
