@@ -15,7 +15,7 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "https://www.aidan-murphy.ie",
+    "start_url": "www.aidan-murphy.ie",
     "display": "standalone",
     "orientation": "portrait"
 }
