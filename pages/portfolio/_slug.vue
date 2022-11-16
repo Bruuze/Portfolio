@@ -41,7 +41,7 @@ export default {
   data() {
       return {
         //title: ' - Aidan Murphy - Designs for Streamers',
-        title: post.title,
+        title: post.title + ' - Aidan Murphy - Designs for Streamers',
         pageImg: '/img/clip-dump-2.png',
         rootPath: 'https://aidan-murphy.ie',
         route: this.$nuxt.$route.path,
@@ -49,7 +49,7 @@ export default {
     },
     head() {
       return {
-        title:  this.post.title + this.title,
+        title:  this.title,
         meta: [
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
           {hid: 'og:title',name: 'og:title', content:  this.title},
