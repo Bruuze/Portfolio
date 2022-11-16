@@ -8,7 +8,7 @@
 </template>
 
 <script>
-let ROOT_PATH = 'https://aidanmurphy.netlify.app';
+let ROOT_PATH = 'https://aidan-murphy.ie';
 export default {
   
   async asyncData({ $content }) {
@@ -23,7 +23,7 @@ export default {
       return {
         title: 'Aidan Murphy - Work - Designs for Streamers',
         pageImg: '/blog.png',
-        rootPath: 'https://aidan-murphy.netlify.app',
+        rootPath: 'https://aidan-murphy.ie',
         route: this.$nuxt.$route.path,
       }
     },

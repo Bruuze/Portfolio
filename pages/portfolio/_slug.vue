@@ -1,12 +1,18 @@
 <template>
-<div>
-    <div>
-      <h2>{{ post.title }}</h2>
-      <img :src="post.thumbnail">
-      <div v-html="$md.render(post.body)"></div>
-  </div>
 
-</div>
+  <section class="home-section responsive-padding home-section--light light">
+      <div class="container">
+        <div class="home__row flex--row-reverse">
+          <div class="home__col home__col-4 flex flex--align-v-center">
+            <div>
+              <h2>{{ post.title }}</h2>
+              <img :src="post.thumbnail">
+              <div v-html="$md.render(post.body)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
 </template>
 
 <script>
@@ -40,7 +46,7 @@ export default {
       return {
         title: ' - Aidan Murphy - Designs for Streamers',
         pageImg: '/blog.png',
-        rootPath: 'https://aidan-murphy.netlify.app',
+        rootPath: 'https://aidan-murphy.ie',
         route: this.$nuxt.$route.path,
       }
     },

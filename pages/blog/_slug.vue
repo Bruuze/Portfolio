@@ -42,7 +42,7 @@ export default {
       return {
         title: ' - Aidan Murphy - Designs for Streamers',
         pageImg: '/blog.png',
-        rootPath: 'https://aidan-murphy.netlify.app',
+        rootPath: 'https://aidan-murphy.ie',
         route: this.$nuxt.$route.path,
       }
     },

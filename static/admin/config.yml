@@ -23,6 +23,12 @@ collections:
           widget: "image",
           required: true,
         }
+      - {
+          label: "Social Media Image",
+          name: "social",
+          widget: "image",
+          required: true,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "work"
@@ -39,6 +45,13 @@ collections:
       - {
           label: "Featured Image",
           name: "thumbnail",
+          widget: "image",
+          required: true,
+        }
+
+      - {
+          label: "Social Media Image",
+          name: "social",
           widget: "image",
           required: true,
         }

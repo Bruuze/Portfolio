@@ -8,7 +8,7 @@
 </template>
 
 <script>
-let ROOT_PATH = 'https://aidanmurphy.netlify.app';
+let ROOT_PATH = 'https://aidan-murphy.netlify.ie';
 export default {
   transition: 'bounce',
   
@@ -24,7 +24,7 @@ export default {
       return {
         title: 'Aidan Murphy - Blog - Designs for Streamers',
         pageImg: '/blog.png',
-        rootPath: 'https://aidan-murphy.netlify.app',
+        rootPath: 'https://aidan-murphy.ie',
         route: this.$nuxt.$route.path,
       }
     },
