@@ -19,18 +19,7 @@ export default {
     };
   },
 
-  data() {
-      return {
-        mixer: null,
-        title: 'Aidan Murphy - Work - Designs for Streamers',
-        description: 'All-in-one Online Video and Broadcast Design Specialist - Web, Motion & Graphic Design all in one place - Twitch, Youtube & Facebook - Made for Streamers & Content Creators!',
-        pageImg: '/blog.png',
-        rootPath: 'https://aidan-murphy.ie',
-        route: this.$nuxt.$route.path,
-        twitterUsername: '@AidanMurphy___'
-      }
-    },
-    head() {
+  head() {
       return {
         title: this.title,
         meta: [
@@ -54,6 +43,18 @@ export default {
           {hid: 'og:description', property: 'og:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'},
           {hid: 'og:url', property: "og:url", content: this.rootPath + this.route }
         ]
+      }
+    },
+
+  data() {
+      return {
+        mixer: null,
+        title: 'Aidan Murphy - Work - Designs for Streamers',
+        description: 'All-in-one Online Video and Broadcast Design Specialist - Web, Motion & Graphic Design all in one place - Twitch, Youtube & Facebook - Made for Streamers & Content Creators!',
+        pageImg: '/blog.png',
+        rootPath: 'https://aidan-murphy.ie',
+        route: this.$nuxt.$route.path,
+        twitterUsername: '@AidanMurphy___'
       }
     }
 
