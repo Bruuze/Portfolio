@@ -16,7 +16,7 @@ export default {
     const posts = await $content("blog").fetch();
 
     return {
-      posts,
+      posts
     };
   },
 
