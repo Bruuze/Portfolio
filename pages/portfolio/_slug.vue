@@ -64,7 +64,7 @@ export default {
           {property: 'og:title', content:  this.title},
           {property: 'og:site_name', content: 'Aidan Murphy - Portfolio'},
           {property: 'og:type', content: 'website'},
-          {property: 'og:image', content: ''},
+          {property: 'og:image', content: this.rootPath + post.social},
           {property: 'og:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'}
         ]
       }
