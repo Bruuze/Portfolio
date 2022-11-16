@@ -54,7 +54,7 @@ export default {
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
           {hid: 'og:title',name: 'og:title', content:  this.title},
           {hid: 'og:description',name: 'og:description', content: "Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!"},
-          {name: 'description', content: post.description}
+          {name: 'description', content: post.description},
           {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
           {hid: 'twitter:title', name: 'twitter:title', content:  this.title},
           {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'},
