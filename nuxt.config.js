@@ -15,10 +15,10 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
-    htmlAttrs: {
+    //title: process.env.npm_package_name || '',
+    /*htmlAttrs: {
       lang: 'en',
-    },
+    },*/
     
     meta: [
       { charset: 'utf-8' },
