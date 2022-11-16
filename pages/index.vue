@@ -77,7 +77,7 @@ export default {
     head() {
       return {
         //title: this.title,
-        meta: [
+        /*meta: [
 
           {hid: 'description', name:'description', content: this.description},
           {hid: 'keywords', name: 'keywords', content: 'stream, design, twitch, graphics, youtube, panels, package, scenes, screens, offline, offline image, banner, content, creation, influncer, facebook, streaming, quality, designer, code, website, motion, animation, animated, aidan, murphy, VBI, Nerd, or, die, Nerdordie, visuals, by, impulse, youtuber, irish, ireland, english'},
@@ -92,13 +92,13 @@ export default {
 
 
           // Facebook OpenGraph
-          /*{hid: 'og:title', name: 'og:title', content: this.title},
+          {hid: 'og:title', name: 'og:title', content: this.title},
           {hid: 'og:site_name', property: 'og:site_name', content: 'Aidan Murphy - Portfolio'},
           {hid: 'og:type', property: 'og:type', content: 'website'},
           {hid: 'og:image', property: 'og:image', content: this.rootPath + this.pageImg},
           {hid: 'og:description', property: 'og:description', content: this.description},
-          {hid: 'og:url', property: "og:url", content: this.rootPath + this.route }*/
-        ]
+          {hid: 'og:url', property: "og:url", content: this.rootPath + this.route }
+        ]*/
       }
     }
 

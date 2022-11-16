@@ -32,7 +32,7 @@ export default {
     head() {
       return {
         //title: this.title,
-        meta: [
+        /*meta: [
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
           {hid: 'og:description',name: 'og:description', content: "Aidan Murphy - Work - Web, Motion & Graphic Design all in one place, made for Streamers!"},
           {hid: 'keywords', name: 'keywords', content: 'stream, design, twitch, graphics, youtube, panels, package, scenes, screens, offline, offline image, banner, content, creation, influncer, facebook, streaming, quality, designer, code, website, motion, animation, animated, aidan, murphy, VBI, Nerd, or, die, Nerdordie, visuals, by, impulse, youtuber, irish, ireland, english'},
@@ -46,13 +46,13 @@ export default {
           {hid: 'twitter:creator', name: 'twitter:creator', content: this.twitterUsername},
 
           // Facebook OpenGraph
-          /*{hid: 'og:title', name: 'og:title', content: "Aidan Murphy - Work - Designs for Streamers"},
+          {hid: 'og:title', name: 'og:title', content: "Aidan Murphy - Work - Designs for Streamers"},
           {hid: 'og:site_name', property: 'og:site_name', content: 'Aidan Murphy - Portfolio'},
           {hid: 'og:type', property: 'og:type', content: 'website'},
           {hid: 'og:image', property: 'og:image', content: this.pageImg},
           {hid: 'og:description', property: 'og:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'},
-          {hid: 'og:url', property: "og:url", content: this.rootPath + this.route }*/
-        ]
+          {hid: 'og:url', property: "og:url", content: this.rootPath + this.route }
+        ]*/
       }
     }
 
