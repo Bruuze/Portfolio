@@ -19,7 +19,7 @@ export default {
     };
   },
 
-  async data() {
+  data() {
       return {
         mixer: null,
         title: 'Aidan Murphy - Work - Designs for Streamers',
@@ -30,7 +30,7 @@ export default {
         twitterUsername: '@AidanMurphy___'
       }
     },
-    async head() {
+    head() {
       return {
         title: this.title,
         meta: [
