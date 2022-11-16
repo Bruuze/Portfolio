@@ -21,12 +21,13 @@ export default {
 
   data() {
       return {
-        mixer: null,
+        /*mixer: null,
         title: 'Aidan Murphy - Work - Designs for Streamers',
+        description: 'All-in-one Online Video and Broadcast Design Specialist - Web, Motion & Graphic Design all in one place - Twitch, Youtube & Facebook - Made for Streamers & Content Creators!',
         pageImg: '/blog.png',
         rootPath: 'https://aidan-murphy.ie',
         route: this.$nuxt.$route.path,
-        twitterUsername: '@AidanMurphy___'
+        twitterUsername: '@AidanMurphy___'*/
       }
     },
     head() {
