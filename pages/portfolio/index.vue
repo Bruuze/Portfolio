@@ -19,7 +19,7 @@ export default {
     };
   },
 
-  /*data() {
+  data() {
       return {
         mixer: null,
         title: 'Aidan Murphy - Work - Designs for Streamers',
@@ -29,7 +29,7 @@ export default {
         twitterUsername: '@AidanMurphy___'
       }
     },
-    head() {
+    /*head() {
       return {
         //title: this.title,
         meta: [
