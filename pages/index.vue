@@ -63,7 +63,7 @@ export default {
 
   /* --- Constant Data --- */
 
-  data() {
+  /*data() {
       return {
         mixer: null,
         title: 'Aidan Murphy - Designs for Streamers & Content Creators',
@@ -101,7 +101,7 @@ export default {
           {property: "og:url", content: this.rootPath + this.route },
         ]
       }
-    }
+    }*/
 
 }
 </script>

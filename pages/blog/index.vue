@@ -20,7 +20,7 @@ export default {
     };
   },
 
-  data() {
+  /*data() {
       return {
         title: 'Aidan Murphy - Blog - Designs for Streamers',
         pageImg: '/blog.png',
@@ -49,7 +49,7 @@ export default {
           {property: 'og:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'}
         ]
       }
-    }
+    }*/
 
 }
 </script>
