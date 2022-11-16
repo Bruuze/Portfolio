@@ -2,56 +2,56 @@
   {
     "name": "404",
     "path": "/404",
-    "component": "E:\\\\Website\\\\Website_2022\\\\Portfolio\\\\pages\\\\404.vue",
+    "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\404.vue",
     "chunkName": "pages/404",
-    "_name": "_ce7b723c"
+    "_name": "_0696651c"
   },
   {
     "name": "blog",
     "path": "/blog",
-    "component": "E:\\\\Website\\\\Website_2022\\\\Portfolio\\\\pages\\\\blog\\\\index.vue",
+    "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\blog\\\\index.vue",
     "chunkName": "pages/blog/index",
-    "_name": "_6c16131a"
+    "_name": "_12bdecac"
   },
   {
     "name": "portfolio",
     "path": "/portfolio",
-    "component": "E:\\\\Website\\\\Website_2022\\\\Portfolio\\\\pages\\\\portfolio\\\\index.vue",
+    "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\portfolio\\\\index.vue",
     "chunkName": "pages/portfolio/index",
-    "_name": "_0d03cad0"
+    "_name": "_469c6e40"
   },
   {
     "name": "test",
     "path": "/test",
-    "component": "E:\\\\Website\\\\Website_2022\\\\Portfolio\\\\pages\\\\test.vue",
+    "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\test.vue",
     "chunkName": "pages/test",
-    "_name": "_4a91cd50"
+    "_name": "_15d53670"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug",
-    "component": "E:\\\\Website\\\\Website_2022\\\\Portfolio\\\\pages\\\\blog\\\\_slug.vue",
+    "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\blog\\\\_slug.vue",
     "chunkName": "pages/blog/_slug",
-    "_name": "_6a5f71d2"
+    "_name": "_162b2f3c"
   },
   {
     "name": "portfolio-slug",
     "path": "/portfolio/:slug",
-    "component": "E:\\\\Website\\\\Website_2022\\\\Portfolio\\\\pages\\\\portfolio\\\\_slug.vue",
+    "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\portfolio\\\\_slug.vue",
     "chunkName": "pages/portfolio/_slug",
-    "_name": "_0b4d2988"
+    "_name": "_44e5ccf8"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "E:\\\\Website\\\\Website_2022\\\\Portfolio\\\\pages\\\\index.vue",
+    "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_d5fc6608"
+    "_name": "_732620e8"
   },
   {
     "name": "custom",
     "path": "*",
-    "component": "E:\\\\Website\\\\Website_2022\\\\Portfolio\\\\pages\\\\404.vue",
-    "_name": "_ce7b723c"
+    "component": "W:\\\\Personal\\\\Website\\\\Website_2020\\\\Portfolio\\\\pages\\\\404.vue",
+    "_name": "_0696651c"
   }
 ]

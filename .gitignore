@@ -1,7 +1,2 @@
 
-.nuxt\*
-.nuxt/index.js
-.nuxt/router.js
-.nuxt/index.js
-.nuxt/router.js
-.nuxt/routes.json
+.nuxt

@@ -3,13 +3,13 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _ce7b723c = () => interopDefault(import('..\\pages\\404.vue' /* webpackChunkName: "pages/404" */))
-const _6c16131a = () => interopDefault(import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages/blog/index" */))
-const _0d03cad0 = () => interopDefault(import('..\\pages\\portfolio\\index.vue' /* webpackChunkName: "pages/portfolio/index" */))
-const _4a91cd50 = () => interopDefault(import('..\\pages\\test.vue' /* webpackChunkName: "pages/test" */))
-const _6a5f71d2 = () => interopDefault(import('..\\pages\\blog\\_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
-const _0b4d2988 = () => interopDefault(import('..\\pages\\portfolio\\_slug.vue' /* webpackChunkName: "pages/portfolio/_slug" */))
-const _d5fc6608 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _0696651c = () => interopDefault(import('..\\pages\\404.vue' /* webpackChunkName: "pages/404" */))
+const _12bdecac = () => interopDefault(import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages/blog/index" */))
+const _469c6e40 = () => interopDefault(import('..\\pages\\portfolio\\index.vue' /* webpackChunkName: "pages/portfolio/index" */))
+const _15d53670 = () => interopDefault(import('..\\pages\\test.vue' /* webpackChunkName: "pages/test" */))
+const _162b2f3c = () => interopDefault(import('..\\pages\\blog\\_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
+const _44e5ccf8 = () => interopDefault(import('..\\pages\\portfolio\\_slug.vue' /* webpackChunkName: "pages/portfolio/_slug" */))
+const _732620e8 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -29,35 +29,35 @@ export const routerOptions = {
 
   routes: [{
     path: "/404",
-    component: _ce7b723c,
+    component: _0696651c,
     name: "404"
   }, {
     path: "/blog",
-    component: _6c16131a,
+    component: _12bdecac,
     name: "blog"
   }, {
     path: "/portfolio",
-    component: _0d03cad0,
+    component: _469c6e40,
     name: "portfolio"
   }, {
     path: "/test",
-    component: _4a91cd50,
+    component: _15d53670,
     name: "test"
   }, {
     path: "/blog/:slug",
-    component: _6a5f71d2,
+    component: _162b2f3c,
     name: "blog-slug"
   }, {
     path: "/portfolio/:slug",
-    component: _0b4d2988,
+    component: _44e5ccf8,
     name: "portfolio-slug"
   }, {
     path: "/",
-    component: _d5fc6608,
+    component: _732620e8,
     name: "index"
   }, {
     path: "*",
-    component: _ce7b723c,
+    component: _0696651c,
     name: "custom"
   }],
 
