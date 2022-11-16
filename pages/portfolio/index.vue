@@ -46,12 +46,12 @@ export default {
           {hid: 'twitter:creator', name: 'twitter:creator', content: this.twitterUsername},
 
           // Facebook OpenGraph
-          {hid: 'og:title', name: 'og:title', content: "Aidan Murphy - Work - Designs for Streamers"},
+          /*{hid: 'og:title', name: 'og:title', content: "Aidan Murphy - Work - Designs for Streamers"},
           {hid: 'og:site_name', property: 'og:site_name', content: 'Aidan Murphy - Portfolio'},
           {hid: 'og:type', property: 'og:type', content: 'website'},
           {hid: 'og:image', property: 'og:image', content: this.pageImg},
           {hid: 'og:description', property: 'og:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'},
-          {hid: 'og:url', property: "og:url", content: this.rootPath + this.route }
+          {hid: 'og:url', property: "og:url", content: this.rootPath + this.route }*/
         ]
       }
     }
