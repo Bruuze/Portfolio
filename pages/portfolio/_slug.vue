@@ -38,7 +38,7 @@ export default {
     };
    },
 
-  async data() {
+  data() {
       return {
         title: this.post.title + ' - Aidan Murphy - Designs for Streamers',
         pageImg: '/img/clip-dump-2.png',
