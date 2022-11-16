@@ -59,7 +59,7 @@ export default {
           {hid: 'twitter:description', name: 'twitter:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'},
           {property: "og:url", content: this.rootPath + this.route },
           // image must be an absolute path
-          {hid: 'twitter:image', name: 'twitter:image', content: this.rootPath},
+          {hid: 'twitter:image', name: 'twitter:image', content: this.rootPath + post.social},
           // Facebook OpenGraph
           {property: 'og:title', content:  this.title},
           {property: 'og:site_name', content: 'Aidan Murphy - Portfolio'},
