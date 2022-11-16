@@ -31,7 +31,7 @@ export default {
     },
     head() {
       return {
-        title: this.title,
+        //title: this.title,
         /*meta: [
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
           {hid: 'og:description',name: 'og:description', content: "Aidan Murphy - Work - Web, Motion & Graphic Design all in one place, made for Streamers!"},
