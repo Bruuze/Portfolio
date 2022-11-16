@@ -2,13 +2,7 @@
   "Loading": {
     "description": "Auto imported from components/loading.vue"
   },
-  "LazyLoading": {
-    "description": "Auto imported from components/loading.vue"
-  },
   "Logo": {
-    "description": "Auto imported from components/Logo.vue"
-  },
-  "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
   }
 }
