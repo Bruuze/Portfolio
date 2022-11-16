@@ -5,7 +5,7 @@
   <nav class="controls ">
     <button type="button " class="control " data-filter="all">All</button>
     <button type="button " class="control " data-filter=".logo ">Logo</button>
-    <button type="button " class="control " data-filter=".motion ">Motion Graphics</button>
+    <button type="button " class="control " data-filter=".blue ">Blue</button>
     <button type="button " class="control " data-filter=".tink ">Pink</button>
     <button type="button " class="control " data-filter="none ">None</button>
   </nav>
