@@ -63,7 +63,7 @@ export default {
 
   /* --- Constant Data --- */
 
-  data() {
+  async data() {
       return {
         mixer: null,
         title: 'Aidan Murphy - Designs for Streamers & Content Creators',
@@ -74,7 +74,7 @@ export default {
         twitterUsername: '@AidanMurphy___'
       }
     },
-    head() {
+    async head() {
       return {
         title: this.title,
         meta: [
