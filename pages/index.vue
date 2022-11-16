@@ -74,9 +74,9 @@ export default {
         twitterUsername: '@AidanMurphy___'
       }
     },
-    /*head() {
+    head() {
       return {
-        title: this.title,
+        //title: this.title,
         meta: [
 
           {hid: 'description', name:'description', content: this.description},
@@ -100,7 +100,7 @@ export default {
           {hid: 'og:url', property: "og:url", content: this.rootPath + this.route },
         ]
       }
-    }*/
+    }
 
 }
 </script>
