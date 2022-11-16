@@ -18,8 +18,8 @@ export default {
     title: process.env.npm_package_name || '',
     htmlAttrs: {
       lang: 'en',
+      
     },
-    refreshOnceOnNavigation: true,
     
     meta: [
       { charset: 'utf-8' },
