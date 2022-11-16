@@ -2,14 +2,10 @@
 
   <section class="home-section responsive-padding home-section--light light">
       <div class="containerPost">
-        <div class="home__row flex--row-reverse">
-          <div class="home__col home__col-4 flex flex--align-v-center">
-            <div>
-              <h2>{{ post.title }}</h2>
-              <img class="headerImage" :src="post.thumbnail">
-              <div v-html="$md.render(post.body)"></div>
-            </div>
-          </div>
+        <div>
+          <h2>{{ post.title }}</h2>
+          <img class="headerImage" :src="post.thumbnail">
+          <div v-html="$md.render(post.body)"></div>
         </div>
       </div>
   </section>
