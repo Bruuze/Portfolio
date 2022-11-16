@@ -20,7 +20,7 @@ export default {
   },
 
   data() {
-      /*return {
+      return {
         mixer: null,
         title: 'Aidan Murphy - Work - Designs for Streamers',
         description: 'All-in-one Online Video and Broadcast Design Specialist - Web, Motion & Graphic Design all in one place - Twitch, Youtube & Facebook - Made for Streamers & Content Creators!',
@@ -30,6 +30,7 @@ export default {
         twitterUsername: '@AidanMurphy___'
       }
     },
+
     head() {
       return {
         title: this.title,
@@ -53,8 +54,12 @@ export default {
           {hid: 'og:image', property: 'og:image', content: this.pageImg},
           {hid: 'og:description', property: 'og:description', content: 'Aidan Murphy - Web, Motion & Graphic Design all in one place, made for Streamers!'},
           {hid: 'og:url', property: "og:url", content: this.rootPath + this.route }
-        ]
-      }*/
+        ],
+
+        changed (newInfo, addedTags, removedTags) {
+          console.log('Metadata was updated!')
+        }
+      }
     }
 
 }
