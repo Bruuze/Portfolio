@@ -8,14 +8,14 @@
 </template>
 
 <script>
-let ROOT_PATH = 'https://aidan-murphy.ie';
+//let ROOT_PATH = 'https://aidan-murphy.ie';
 export default {
   
   async asyncData({ $content }) {
     const posts = await $content("work").fetch();
 
     return {
-      posts,
+      posts
     };
   },
 
