@@ -38,10 +38,17 @@ export default {
     };
    },
 
-  data() {
+  async data({ $content, params, error }) {
+    let post;
+    try {
+      post = await $content("work", params.slug).fetch();
+      // OR const article = await $content(`articles/${params.slug}`).fetch()
+    } catch (e) {
+      error({ message: "Work Post not found" });
+    }
       return {
         // title: this.post.title + ' - Aidan Murphy - Designs for Streamers',
-        title: this.$nuxt.$route.post.title,
+        title: post.title,
         pageImg: '/img/clip-dump-2.png',
         rootPath: 'https://aidan-murphy.ie',
         route: this.$nuxt.$route.path,
