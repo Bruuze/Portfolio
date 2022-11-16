@@ -65,18 +65,18 @@ export default {
 
   data() {
       return {
-        /*mixer: null,
+        mixer: null,
         title: 'Aidan Murphy - Designs for Streamers & Content Creators',
         description: 'All-in-one Online Video and Broadcast Design Specialist - Web, Motion & Graphic Design all in one place - Twitch, Youtube & Facebook - Made for Streamers & Content Creators!',
         pageImg: '/urlStaticImg/test.png',
         rootPath: 'https://aidan-murphy.ie',
         route: this.$nuxt.$route.path,
-        twitterUsername: '@AidanMurphy___'*/
+        twitterUsername: '@AidanMurphy___'
       }
     },
     head() {
       return {
-        /*title: this.title,
+        title: this.title,
         meta: [
 
           {hid: 'og:title',name: 'og:title', content: this.title},
@@ -99,7 +99,7 @@ export default {
           {property: 'og:image', content: this.rootPath + this.pageImg},
           {property: 'og:description', content: this.description},
           {property: "og:url", content: this.rootPath + this.route },
-        ]*/
+        ]
       }
     }
 
