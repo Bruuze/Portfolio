@@ -125,6 +125,17 @@ main{
     margin-right: auto;
 }
 
+.containerPost {
+    max-width: 100%;
+    min-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerImage{
+    width: 100%;
+}
+
 .nav {
     position: -webkit-sticky;
     position: sticky;
