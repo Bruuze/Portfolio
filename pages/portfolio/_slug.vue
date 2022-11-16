@@ -41,7 +41,7 @@ export default {
   data() {
       return {
         title: ' - Aidan Murphy - Designs for Streamers',
-        pageImg: "'" + post.thumbnail + "'",
+        pageImg: '/img/clip-dump-2.png',
         rootPath: 'https://aidan-murphy.ie',
         route: this.$nuxt.$route.path,
       }
