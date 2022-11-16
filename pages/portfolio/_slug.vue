@@ -12,6 +12,7 @@
 </template>
 
 <script>
+let post;
 import Vue from 'vue';
 Vue.use(require('vue-moment'));
 import moment from 'moment';
@@ -25,7 +26,6 @@ export default {
    components: {},
 
    async asyncData({ $content, params, error }) {
-    let post;
     try {
       post = await $content("work", params.slug).fetch();
       // OR const article = await $content(`articles/${params.slug}`).fetch()
