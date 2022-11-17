@@ -14,7 +14,7 @@ export default {
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
   */
-  head: {
+ /* head: {
     title: process.env.npm_package_name || '',
     htmlAttrs: {
       lang: 'en',
@@ -23,7 +23,7 @@ export default {
     
     meta: [
       { charset: 'utf-8' },
-      //{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'msapplication-TileColor', content: '#181425'},
       { name: 'theme-color', content: '#FF7CD7'} 
     ],
@@ -38,7 +38,7 @@ export default {
       /*{
         rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css'
-      }*/
+      }
     ],
 
     css: [
@@ -62,7 +62,7 @@ export default {
         src: '/main.js'
       },
     ]
-  },
+  },*/
 
   loading: { color: '#FF7CD7',throttle: 400},
   transition: 'bounce',
