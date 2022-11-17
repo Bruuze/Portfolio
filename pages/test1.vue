@@ -4,7 +4,7 @@
 
 <script>
 export default{
-  data() {
+  data(err) {
       return {
         mixer: null,
         title: 'Aidan Murphy - Designs for Streamers & Content Creators',
@@ -13,10 +13,11 @@ export default{
         rootPath: 'https://aidan-murphy.ie',
         route: this.$nuxt.$route.path,
         twitterUsername: '@AidanMurphy___'
-      }
+      },
+      console.log(err)
     },
 
-  head() {
+  head(err) {
       return {
         title: this.title,
         meta: [
@@ -41,7 +42,8 @@ export default{
           {hid: 'og:description', property: 'og:description', content: this.description},
           {hid: 'og:url', property: "og:url", content: this.rootPath + this.route }
         ]
-      }
+      },
+      console.log(err)
     }
 }
 </script>
