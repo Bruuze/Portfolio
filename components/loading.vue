@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
     <div class="loading-page">
-      <lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_s8rbIj.json"  background="transparent"  speed="1"  autoplay></lottie-player>
+      <!--- <lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_s8rbIj.json"  background="transparent"  speed="1"  autoplay></lottie-player> -->
     </div>
   </div>
 </template>
