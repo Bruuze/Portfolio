@@ -49,7 +49,7 @@ export default {
   
   mounted () {
       this.$nextTick(() => {
-      const containerEl = document.querySelector('.container')
+      const containerEl = document.querySelector('.container');
       this.mixer = new this.mixitup(containerEl, {
       // Options
         animation: {
