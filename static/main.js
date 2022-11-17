@@ -2,8 +2,7 @@ window.addEventListener('load', function(){
 
     $( ".nav__menu" ).toggle();
 
-    setTimeout(function(){ 
-        console.log("this works");
+    setTimeout(function(){
 
         $( ".loading-page" ).animate({
             opacity: 0,
