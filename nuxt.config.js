@@ -14,32 +14,32 @@ export default {
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
   */
- /* head: {
-    title: process.env.npm_package_name || '',
+  head: {
+    /*title: process.env.npm_package_name || '',
     htmlAttrs: {
       lang: 'en',
       
-    },
+    },*/
     
-    meta: [
+    /*meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'msapplication-TileColor', content: '#181425'},
       { name: 'theme-color', content: '#FF7CD7'} 
-    ],
+    ],*/
 
-    link: [
+    /*link: [
       //{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel:'apple-touch-icon', sizes: "180x180", href: "/apple-touch-icon.png"},
       { rel:'icon', type: "image/png", sizes: "32x32", href: "/favicon-32x32.png"},
       { rel:'icon', type: "image/png", sizes: "16x16", href: "/favicon-16x16.png"},
       { rel: "manifest", href: "/site.webmanifest"},
       { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#181425"},
-      /*{
+      {
         rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css'
       }
-    ],
+    ],*/
 
     css: [
       'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css'
@@ -62,7 +62,7 @@ export default {
         src: '/main.js'
       },
     ]
-  },*/
+  },
 
   loading: { color: '#FF7CD7',throttle: 400},
   transition: 'bounce',
