@@ -42,7 +42,7 @@
     </div>
   </nav>
 
-    <!-- <Nuxt /> -->
+  <Nuxt />
 
   </div>
 </template>
