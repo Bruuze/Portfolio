@@ -1,10 +1,10 @@
 <template>
   <svg data-v-31c40f06="" viewBox="0 0 615 147" fill="none" xmlns="http://www.w3.org/2000/svg" id="logo">
-  <!-- <style type="text/css">
+  <style type="text/css">
 	.st0{fill:#FFFFFF;}
   .nuxt-link-exact-active .st0{fill:#F75EC8;}
 	.st1{fill:#FFFFFF;}
-</style> -->
+</style>
     <g>
 	<polygon class="st0" points="60.87,80.31 84.04,103.97 107.21,80.3 84.04,40.17 	"/>
 	<polygon class="st0" points="56.33,88.17 34.47,126.04 133.62,126.04 111.75,88.16 84.04,116.46 	"/>
