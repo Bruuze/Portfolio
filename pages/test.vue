@@ -101,7 +101,7 @@ async asyncData({ $content }) {
       posts,
     };
   },
-
+  
   head() {
       return {
         title: this.title,
@@ -131,13 +131,7 @@ async asyncData({ $content }) {
     },
   data() {
       return {
-        mixer: null,
-        title: 'Aidan Murphy - Designs for Streamers & Content Creators',
-        description: 'All-in-one Online Video and Broadcast Design Specialist - Web, Motion & Graphic Design all in one place - Twitch, Youtube & Facebook - Made for Streamers & Content Creators!',
-        pageImg: '/urlStaticImg/test.png',
-        rootPath: 'https://aidan-murphy.ie',
-        route: this.$nuxt.$route.path,
-        twitterUsername: '@AidanMurphy___'
+        mixer: null
       }
     },
     mounted () {
