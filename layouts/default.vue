@@ -1,11 +1,11 @@
 <template>
   <div>
-  <!-- <loading /> -->
+  <loading />
   <nav class="nav responsive-padding">
     <div class="nav__wrapper">
       <ul class="nav__ul sematic-only">
         <li class="nav__li nav__logo">
-          <!--<nuxt-link to="/"> <Logo /> </nuxt-link> -->
+          <nuxt-link to="/"> <Logo /> </nuxt-link>
         </li>
         <li class="nav__li nav__li--desktop-only">
           <nuxt-link to="/portfolio/" class="nav__link-text" title="Portfolio"> Portfolio </nuxt-link>
